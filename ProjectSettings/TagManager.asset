@@ -11,11 +11,11 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Ground
+  - Player
+  - Enemy
+  - Sword
+  - LevelProp
   - 
   - 
   - 
@@ -40,4 +40,25 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3330459159
+    locked: 0
+  - name: Ground
+    uniqueID: 4136719923
+    locked: 0
+  - name: LevelProp
+    uniqueID: 3934009095
+    locked: 0
+  - name: Enemy
+    uniqueID: 4260201513
+    locked: 0
+  - name: Player
+    uniqueID: 3006052171
+    locked: 0
+  - name: Item
+    uniqueID: 1275060877
+    locked: 0
+  - name: UI
+    uniqueID: 2010848967
     locked: 0
