@@ -6,11 +6,43 @@
                 <ui:VisualElement name="inventory_contain_outline-box" class="inventory_contain_outline-box">
                     <ui:Label tabindex="-1" text="Inventory" parse-escape-sequences="true" display-tooltip-when-elided="true" name="current_window-label" class="current_window-label" />
                 </ui:VisualElement>
-                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="exit-button" class="exit-button">
-                    <ui:VisualElement name="exit_icon-button" class="exit_icon-button" />
-                </ui:Button>
             </ui:VisualElement>
-            <ui:VisualElement name="VisualElement" style="flex-grow: 1; width: 95.2px; height: 622px; background-image: url(&apos;project://database/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/arch_7.png?fileID=2800000&amp;guid=2ff1ab1e04276884eb1de48be63d6cce&amp;type=3#arch_7&apos;); background-color: rgb(255, 0, 0);" />
+            <ui:VisualElement name="inventory_mid_contain-box" class="inventory_mid_contain-box">
+                <ui:VisualElement name="profil_page_contain-box" class="profil_page_contain-box">
+                    <ui:VisualElement name="left_contain-box" class="left_contain-box">
+                        <ui:VisualElement name="profil_background-box" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/Graphics/UI/Extra/artdecoUI_PIPO_tr.png?fileID=123236353&amp;guid=28fe00bcf29296746bbfcea71fc1acfa&amp;type=3#button_white&apos;); -unity-background-image-tint-color: rgb(111, 111, 111); width: 250px; margin-left: 0; height: 250px; align-items: stretch; justify-content: space-around;">
+                            <ui:VisualElement name="profil_image-box" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Graphics/Icons/%232%20-%20Transparent%20Icons%20&amp;%20Drop%20Shadow.png?fileID=-1898523646&amp;guid=be55291aae08d434db3da3b59db3ab4a&amp;type=3#2 - Transparent Icons &amp; Drop Shadow_4&apos;);" />
+                        </ui:VisualElement>
+                        <ui:VisualElement style="flex-grow: 1; width: 512px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px;">
+                            <ui:Label tabindex="-1" text="Lv 3" parse-escape-sequences="true" display-tooltip-when-elided="true" name="currentlv-label" style="font-size: 26px; -unity-font-definition: initial; -unity-font: url(&apos;project://database/Assets/Graphics/Font/DOSGothic.ttf?fileID=12800000&amp;guid=566008d23c6bc104d9333e5935399db9&amp;type=3#DOSGothic&apos;);" />
+                            <ui:ProgressBar value="22" title="100/9999" name="lvbar-bar" focusable="false" class="lvbar-bar" style="margin-top: -8px;" />
+                            <ui:VisualElement name="stat_contain-box" class="stat_contain-box" style="flex-grow: 1; flex-direction: row;">
+                                <ui:VisualElement name="stat_name-box" style="flex-grow: 0; width: 30%; height: 100%;">
+                                    <ui:Label tabindex="-1" text="체력" parse-escape-sequences="true" display-tooltip-when-elided="true" name="stat_hp-label" class="stat-label" />
+                                    <ui:Label tabindex="-1" text="공격력" parse-escape-sequences="true" display-tooltip-when-elided="true" name="stat_striking-label" class="stat-label" />
+                                    <ui:Label tabindex="-1" text="주문력" parse-escape-sequences="true" display-tooltip-when-elided="true" name="stat_magic-label" class="stat-label" />
+                                    <ui:Label tabindex="-1" text="방어력" parse-escape-sequences="true" display-tooltip-when-elided="true" name="stat_defensive-label" class="stat-label" />
+                                    <ui:Label tabindex="-1" text="크리티컬 확률" parse-escape-sequences="true" display-tooltip-when-elided="true" name="stat_critical-label" class="stat-label" />
+                                </ui:VisualElement>
+                                <ui:VisualElement name="stat_parameter-box" style="flex-grow: 0; width: 70%; height: 100%;">
+                                    <ui:Label tabindex="-1" text="4125" parse-escape-sequences="true" display-tooltip-when-elided="true" name="stat_hp_parameter-label" class="stat_parameter-label" />
+                                    <ui:Label tabindex="-1" text="14124" parse-escape-sequences="true" display-tooltip-when-elided="true" name="stat_hp_parameter-label" class="stat_parameter-label" />
+                                    <ui:Label tabindex="-1" text="2144" parse-escape-sequences="true" display-tooltip-when-elided="true" name="stat_hp_parameter-label" class="stat_parameter-label" />
+                                    <ui:Label tabindex="-1" text="2144" parse-escape-sequences="true" display-tooltip-when-elided="true" name="stat_hp_parameter-label" class="stat_parameter-label" />
+                                    <ui:Label tabindex="-1" text="2144" parse-escape-sequences="true" display-tooltip-when-elided="true" name="stat_hp_parameter-label" class="stat_parameter-label" />
+                                </ui:VisualElement>
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="right_contain-box" style="flex-grow: 1;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="inventory_bottom_contain-box" class="inventory_bottom_contain-box">
+                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="profil_tabbar-button" class="tabbar-button" style="background-image: url(&apos;project://database/Assets/Graphics/Icons/%232%20-%20Transparent%20Icons%20&amp;%20Drop%20Shadow.png?fileID=-997409879&amp;guid=be55291aae08d434db3da3b59db3ab4a&amp;type=3#2 - Transparent Icons &amp; Drop Shadow_46&apos;); transition-duration: 0.2s;" />
+                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="equipment_tabbar-button" class="tabbar-button" style="background-image: url(&apos;project://database/Assets/Graphics/Icons/%232%20-%20Transparent%20Icons%20&amp;%20Drop%20Shadow.png?fileID=281222209&amp;guid=be55291aae08d434db3da3b59db3ab4a&amp;type=3#2 - Transparent Icons &amp; Drop Shadow_30&apos;); transition-duration: 0.2s;" />
+                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="bag_tabbar-button" class="tabbar-button" style="background-image: url(&apos;project://database/Assets/Graphics/Icons/%232%20-%20Transparent%20Icons%20&amp;%20Drop%20Shadow.png?fileID=1862874294&amp;guid=be55291aae08d434db3da3b59db3ab4a&amp;type=3#2 - Transparent Icons &amp; Drop Shadow_118&apos;); transition-duration: 0.2s;" />
+                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="map_tabbar-button" class="tabbar-button" style="background-image: url(&apos;project://database/Assets/Graphics/Icons/%232%20-%20Transparent%20Icons%20&amp;%20Drop%20Shadow.png?fileID=-1935324340&amp;guid=be55291aae08d434db3da3b59db3ab4a&amp;type=3#2 - Transparent Icons &amp; Drop Shadow_178&apos;); transition-duration: 0.2s;" />
+            </ui:VisualElement>
         </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>
