@@ -1,0 +1,75 @@
+.screen_contain-box {
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.inventory_contain_background-box {
+    width: 90%;
+    height: 100%;
+    background-image: url('project://database/Assets/00.Work/Baek/02_Sprites/Pixel%20UI%20kit/Pixel%20UI%20kit/PNGs/Base%20Bg%201.png?fileID=21300000&guid=5d0fbcc710f581d40aa3c32699ebd90b&type=3#Base Bg 1');
+    -unity-slice-left: 0;
+    -unity-slice-top: 0;
+    -unity-slice-right: 0;
+    -unity-slice-bottom: 0;
+    -unity-slice-scale: 4px;
+    -unity-background-image-tint-color: rgb(188, 188, 188);
+    margin-bottom: 32px;
+    margin-top: 180px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.inventory_contain_outline-box {
+    background-image: url('project://database/Assets/00.Work/Baek/02_Sprites/Pixel%20UI%20kit/Pixel%20UI%20kit/PNGs/Base%20Bg%201.png?fileID=21300000&guid=5d0fbcc710f581d40aa3c32699ebd90b&type=3#Base Bg 1');
+    width: 95%;
+    height: 100%;
+    padding-left: 0;
+    -unity-slice-scale: 4px;
+    top: -40px;
+}
+
+.current_window-label {
+    -unity-text-align: middle-center;
+    -unity-font-definition: initial;
+    -unity-font: url('project://database/Assets/Graphics/Font/DOSGothic.ttf?fileID=12800000&guid=566008d23c6bc104d9333e5935399db9&type=3#DOSGothic');
+    font-size: 96px;
+    -unity-text-outline-color: rgb(0, 0, 0);
+    -unity-text-outline-width: 1px;
+    color: rgb(255, 255, 255);
+    height: 100%;
+    width: 100%;
+}
+
+.exit-button {
+    height: 100%;
+    width: 5%;
+    top: -40px;
+    background-image: url('project://database/Assets/00.Work/Baek/02_Sprites/Pixel%20UI%20kit/Pixel%20UI%20kit/PNGs/Button%20Small%20Red.png?fileID=21300000&guid=6f34ef8e199e4df429af9aeaf66091f1&type=3#Button Small Red');
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    -unity-slice-scale: 3px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.exit-button:hover {
+    -unity-background-image-tint-color: rgb(218, 218, 218);
+}
+
+.exit_icon-button {
+    flex-grow: 1;
+    background-image: url('project://database/Assets/00.Work/Baek/02_Sprites/Pixel%20UI%20kit/Pixel%20UI%20kit/PNGs/Icons/X.png?fileID=21300000&guid=4812b80f8d15bec44bedf2555d303ef8&type=3#X');
+}
+
+.inventory_top_contain-box {
+    flex-grow: 0;
+    height: 10%;
+    width: 100%;
+    flex-direction: row;
+}
