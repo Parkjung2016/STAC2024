@@ -11,10 +11,6 @@ public enum StateEnum
     WallSlide,
     WallJump,
     PrimaryAttack,
-    CounterAttack,
-    AimSword,
-    CatchSword,
-    Blackhole,
     Dead,
 }
 public class PlayerStateMachine

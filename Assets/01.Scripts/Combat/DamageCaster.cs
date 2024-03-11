@@ -39,7 +39,7 @@ public class DamageCaster : MonoBehaviour
                 int damage = _owner.Stat.GetDamage();
                 if (_castByCloneSkill)
                 {
-                    damage =  Mathf.RoundToInt(damage * SkillManager.Instance.GetSkill<CloneSkill>().damageMultiplier);
+                    damage =  Mathf.RoundToInt(damage);
                 }
                 health.ApplyDamage(damage, direction, knockbackPower, _owner);
                 SetAilmentByStat(health);

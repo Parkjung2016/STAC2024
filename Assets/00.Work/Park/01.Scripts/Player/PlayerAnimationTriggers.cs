@@ -14,16 +14,9 @@ public class PlayerAnimationTriggers : MonoBehaviour
     {
         _player.AnimationTrigger();
     }
-    
+
     private void AttackTrigger()
     {
         _player.Attack();
-    }
-
-    //칼을 던지는 이벤트.
-    private void ThrowSword()
-    {
-        SwordSkill skill = _player.skill.GetSkill<SwordSkill>();
-        skill.CreateSword();
     }
 }

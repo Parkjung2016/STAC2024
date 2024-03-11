@@ -8,11 +8,8 @@ public class InputReader : ScriptableObject, Controls.IPlayerActions, Controls.I
     public event Action AttackEvent;
     public event Action JumpEvent;
     public event Action DashEvent;
-    public event Action CounterAttackEvent;
-    public event Action UltiSkillEvent;
-    public event Action CrystalSkillEvent;
-    public event Action<bool> ThrowAimEvent;
-    public event Action HealFlaskEvent;
+    public event Action FireSkillEvent;
+    public event Action Skill3Event;
     public event Action<bool> InteractionEvent;
     public Vector2 AimPosition { get; private set; }
     public float xInput { get; private set; }
@@ -30,25 +27,24 @@ public class InputReader : ScriptableObject, Controls.IPlayerActions, Controls.I
             _controls.Player.SetCallbacks(this);
             _controls.UI.SetCallbacks(this);
         }
-        
+
         _controls.Player.Enable();
         _controls.UI.Enable();
     }
 
     public void SetPlayerInputEnable(bool value)
     {
-        if(value) 
+        if (value)
             _controls.Player.Enable();
         else
             _controls.Player.Disable();
-        
     }
 
     public void OnXMovement(InputAction.CallbackContext context)
     {
         xInput = context.ReadValue<float>();
     }
-    
+
     public void OnYMovement(InputAction.CallbackContext context)
     {
         yInput = context.ReadValue<float>();
@@ -61,65 +57,33 @@ public class InputReader : ScriptableObject, Controls.IPlayerActions, Controls.I
             AttackEvent?.Invoke();
         }
     }
-
-    public void OnCounterAttack(InputAction.CallbackContext context)
+    public void OnFireSkill(InputAction.CallbackContext context)
     {
         if (context.performed)
         {
-            CounterAttackEvent?.Invoke();
+            FireSkillEvent?.Invoke();
         }
     }
 
-    public void OnThrowAim(InputAction.CallbackContext context)
+    public void OnSkill3(InputAction.CallbackContext context)
     {
         if (context.performed)
         {
-            ThrowAimEvent?.Invoke(true);
-        }else if (context.canceled)
-        {
-            ThrowAimEvent?.Invoke(false);
+            Skill3Event?.Invoke();
         }
     }
 
-    public void OnMouseAim(InputAction.CallbackContext context)
-    {
-        AimPosition = context.ReadValue<Vector2>();
-    }
-
-    public void OnUltiSkill(InputAction.CallbackContext context)
-    {
-        if (context.performed)
-        {
-            UltiSkillEvent?.Invoke();
-        }
-    }
-
-    public void OnCrystalSkill(InputAction.CallbackContext context)
-    {
-        if (context.performed)
-        {
-            CrystalSkillEvent?.Invoke();
-        }
-    }
-
-    public void OnHealFlask(InputAction.CallbackContext context)
-    {
-        if (context.performed)
-        {
-            HealFlaskEvent?.Invoke();
-        }
-    }
 
     public void OnInteraction(InputAction.CallbackContext context)
     {
         if (context.performed)
         {
             InteractionEvent?.Invoke(true);
-        }else if (context.canceled)
+        }
+        else if (context.canceled)
         {
             InteractionEvent?.Invoke(false);
         }
-        
     }
 
     public void OnJump(InputAction.CallbackContext context)

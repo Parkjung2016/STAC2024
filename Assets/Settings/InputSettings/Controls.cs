@@ -73,16 +73,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""CounterAttack"",
-                    ""type"": ""Button"",
-                    ""id"": ""282457f3-634b-4193-abfe-5f0f1a7b02f1"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""ThrowAim"",
+                    ""name"": ""Skill3"",
                     ""type"": ""Button"",
                     ""id"": ""e9142377-8691-453e-b14f-fc33717e5c17"",
                     ""expectedControlType"": ""Button"",
@@ -91,16 +82,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""MouseAim"",
-                    ""type"": ""Value"",
-                    ""id"": ""28f874af-c32b-4508-9f80-3b3257682a30"",
-                    ""expectedControlType"": ""Vector2"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": true
-                },
-                {
-                    ""name"": ""UltiSkill"",
+                    ""name"": ""FireSkill"",
                     ""type"": ""Button"",
                     ""id"": ""daacc0f2-617d-4e9c-a0be-57fd8eb32769"",
                     ""expectedControlType"": ""Button"",
@@ -109,27 +91,9 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""CrystalSkill"",
-                    ""type"": ""Button"",
-                    ""id"": ""56e6e507-886e-4111-8811-e3da8484c9a3"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""HealFlask"",
-                    ""type"": ""Button"",
-                    ""id"": ""91565cc9-7e9e-41ef-9e31-8c48718a35c7"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
-                {
                     ""name"": ""Interaction"",
                     ""type"": ""Button"",
-                    ""id"": ""1ef6d854-fc83-4193-80a9-031ecb243864"",
+                    ""id"": ""56e6e507-886e-4111-8811-e3da8484c9a3"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -160,7 +124,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": false
                 },
                 {
-                    ""name"": ""AD"",
+                    ""name"": ""Arrows"",
                     ""id"": ""c839e5ab-45a3-41b4-86cf-d523ac5d9087"",
                     ""path"": ""1DAxis"",
                     ""interactions"": """",
@@ -173,7 +137,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""negative"",
                     ""id"": ""1c067be1-2e1a-401b-829a-c3cff1a39bc2"",
-                    ""path"": ""<Keyboard>/a"",
+                    ""path"": ""<Keyboard>/leftArrow"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -184,7 +148,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""positive"",
                     ""id"": ""e75716c5-003e-4c9d-a054-a4128c303863"",
-                    ""path"": ""<Keyboard>/d"",
+                    ""path"": ""<Keyboard>/rightArrow"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -193,7 +157,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": true
                 },
                 {
-                    ""name"": ""WS"",
+                    ""name"": ""Arrows"",
                     ""id"": ""df186cf1-68b2-48ad-b471-01c6aa1cf844"",
                     ""path"": ""1DAxis"",
                     ""interactions"": """",
@@ -206,7 +170,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""negative"",
                     ""id"": ""652379f0-8de3-4b0c-9d2a-12d2d5bdaf23"",
-                    ""path"": ""<Keyboard>/s"",
+                    ""path"": ""<Keyboard>/upArrow"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -217,7 +181,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""positive"",
                     ""id"": ""dc9999d2-18e4-4f4f-bb40-e56811812860"",
-                    ""path"": ""<Keyboard>/w"",
+                    ""path"": ""<Keyboard>/downArrow"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -228,22 +192,11 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""9ca1f3bf-9726-48e6-bcd4-68b5276a8eac"",
-                    ""path"": ""<Mouse>/leftButton"",
+                    ""path"": ""<Keyboard>/a"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Attack"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""4553a9d2-0a20-4f64-985b-60626e164640"",
-                    ""path"": ""<Mouse>/rightButton"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""CounterAttack"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -254,18 +207,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""ThrowAim"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""a157b3d5-9535-419a-9f5a-b21517c990d7"",
-                    ""path"": ""<Mouse>/position"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""KeyboardAndMouse"",
-                    ""action"": ""MouseAim"",
+                    ""action"": ""Skill3"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -276,7 +218,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""KeyboardAndMouse"",
-                    ""action"": ""UltiSkill"",
+                    ""action"": ""FireSkill"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -284,28 +226,6 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                     ""name"": """",
                     ""id"": ""d9977f81-72a3-461a-98a6-e4e65e137426"",
                     ""path"": ""<Keyboard>/f"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""CrystalSkill"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""321928db-c540-4207-8c6c-279de1c09bd8"",
-                    ""path"": ""<Keyboard>/1"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""KeyboardAndMouse"",
-                    ""action"": ""HealFlask"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""9a09b4fa-8408-40be-a015-000fe03de676"",
-                    ""path"": ""<Keyboard>/g"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -370,12 +290,8 @@ public partial class @Controls: IInputActionCollection2, IDisposable
         m_Player_Dash = m_Player.FindAction("Dash", throwIfNotFound: true);
         m_Player_YMovement = m_Player.FindAction("YMovement", throwIfNotFound: true);
         m_Player_Attack = m_Player.FindAction("Attack", throwIfNotFound: true);
-        m_Player_CounterAttack = m_Player.FindAction("CounterAttack", throwIfNotFound: true);
-        m_Player_ThrowAim = m_Player.FindAction("ThrowAim", throwIfNotFound: true);
-        m_Player_MouseAim = m_Player.FindAction("MouseAim", throwIfNotFound: true);
-        m_Player_UltiSkill = m_Player.FindAction("UltiSkill", throwIfNotFound: true);
-        m_Player_CrystalSkill = m_Player.FindAction("CrystalSkill", throwIfNotFound: true);
-        m_Player_HealFlask = m_Player.FindAction("HealFlask", throwIfNotFound: true);
+        m_Player_Skill3 = m_Player.FindAction("Skill3", throwIfNotFound: true);
+        m_Player_FireSkill = m_Player.FindAction("FireSkill", throwIfNotFound: true);
         m_Player_Interaction = m_Player.FindAction("Interaction", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
@@ -446,12 +362,8 @@ public partial class @Controls: IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_Dash;
     private readonly InputAction m_Player_YMovement;
     private readonly InputAction m_Player_Attack;
-    private readonly InputAction m_Player_CounterAttack;
-    private readonly InputAction m_Player_ThrowAim;
-    private readonly InputAction m_Player_MouseAim;
-    private readonly InputAction m_Player_UltiSkill;
-    private readonly InputAction m_Player_CrystalSkill;
-    private readonly InputAction m_Player_HealFlask;
+    private readonly InputAction m_Player_Skill3;
+    private readonly InputAction m_Player_FireSkill;
     private readonly InputAction m_Player_Interaction;
     public struct PlayerActions
     {
@@ -462,12 +374,8 @@ public partial class @Controls: IInputActionCollection2, IDisposable
         public InputAction @Dash => m_Wrapper.m_Player_Dash;
         public InputAction @YMovement => m_Wrapper.m_Player_YMovement;
         public InputAction @Attack => m_Wrapper.m_Player_Attack;
-        public InputAction @CounterAttack => m_Wrapper.m_Player_CounterAttack;
-        public InputAction @ThrowAim => m_Wrapper.m_Player_ThrowAim;
-        public InputAction @MouseAim => m_Wrapper.m_Player_MouseAim;
-        public InputAction @UltiSkill => m_Wrapper.m_Player_UltiSkill;
-        public InputAction @CrystalSkill => m_Wrapper.m_Player_CrystalSkill;
-        public InputAction @HealFlask => m_Wrapper.m_Player_HealFlask;
+        public InputAction @Skill3 => m_Wrapper.m_Player_Skill3;
+        public InputAction @FireSkill => m_Wrapper.m_Player_FireSkill;
         public InputAction @Interaction => m_Wrapper.m_Player_Interaction;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
@@ -493,24 +401,12 @@ public partial class @Controls: IInputActionCollection2, IDisposable
             @Attack.started += instance.OnAttack;
             @Attack.performed += instance.OnAttack;
             @Attack.canceled += instance.OnAttack;
-            @CounterAttack.started += instance.OnCounterAttack;
-            @CounterAttack.performed += instance.OnCounterAttack;
-            @CounterAttack.canceled += instance.OnCounterAttack;
-            @ThrowAim.started += instance.OnThrowAim;
-            @ThrowAim.performed += instance.OnThrowAim;
-            @ThrowAim.canceled += instance.OnThrowAim;
-            @MouseAim.started += instance.OnMouseAim;
-            @MouseAim.performed += instance.OnMouseAim;
-            @MouseAim.canceled += instance.OnMouseAim;
-            @UltiSkill.started += instance.OnUltiSkill;
-            @UltiSkill.performed += instance.OnUltiSkill;
-            @UltiSkill.canceled += instance.OnUltiSkill;
-            @CrystalSkill.started += instance.OnCrystalSkill;
-            @CrystalSkill.performed += instance.OnCrystalSkill;
-            @CrystalSkill.canceled += instance.OnCrystalSkill;
-            @HealFlask.started += instance.OnHealFlask;
-            @HealFlask.performed += instance.OnHealFlask;
-            @HealFlask.canceled += instance.OnHealFlask;
+            @Skill3.started += instance.OnSkill3;
+            @Skill3.performed += instance.OnSkill3;
+            @Skill3.canceled += instance.OnSkill3;
+            @FireSkill.started += instance.OnFireSkill;
+            @FireSkill.performed += instance.OnFireSkill;
+            @FireSkill.canceled += instance.OnFireSkill;
             @Interaction.started += instance.OnInteraction;
             @Interaction.performed += instance.OnInteraction;
             @Interaction.canceled += instance.OnInteraction;
@@ -533,24 +429,12 @@ public partial class @Controls: IInputActionCollection2, IDisposable
             @Attack.started -= instance.OnAttack;
             @Attack.performed -= instance.OnAttack;
             @Attack.canceled -= instance.OnAttack;
-            @CounterAttack.started -= instance.OnCounterAttack;
-            @CounterAttack.performed -= instance.OnCounterAttack;
-            @CounterAttack.canceled -= instance.OnCounterAttack;
-            @ThrowAim.started -= instance.OnThrowAim;
-            @ThrowAim.performed -= instance.OnThrowAim;
-            @ThrowAim.canceled -= instance.OnThrowAim;
-            @MouseAim.started -= instance.OnMouseAim;
-            @MouseAim.performed -= instance.OnMouseAim;
-            @MouseAim.canceled -= instance.OnMouseAim;
-            @UltiSkill.started -= instance.OnUltiSkill;
-            @UltiSkill.performed -= instance.OnUltiSkill;
-            @UltiSkill.canceled -= instance.OnUltiSkill;
-            @CrystalSkill.started -= instance.OnCrystalSkill;
-            @CrystalSkill.performed -= instance.OnCrystalSkill;
-            @CrystalSkill.canceled -= instance.OnCrystalSkill;
-            @HealFlask.started -= instance.OnHealFlask;
-            @HealFlask.performed -= instance.OnHealFlask;
-            @HealFlask.canceled -= instance.OnHealFlask;
+            @Skill3.started -= instance.OnSkill3;
+            @Skill3.performed -= instance.OnSkill3;
+            @Skill3.canceled -= instance.OnSkill3;
+            @FireSkill.started -= instance.OnFireSkill;
+            @FireSkill.performed -= instance.OnFireSkill;
+            @FireSkill.canceled -= instance.OnFireSkill;
             @Interaction.started -= instance.OnInteraction;
             @Interaction.performed -= instance.OnInteraction;
             @Interaction.canceled -= instance.OnInteraction;
@@ -633,12 +517,8 @@ public partial class @Controls: IInputActionCollection2, IDisposable
         void OnDash(InputAction.CallbackContext context);
         void OnYMovement(InputAction.CallbackContext context);
         void OnAttack(InputAction.CallbackContext context);
-        void OnCounterAttack(InputAction.CallbackContext context);
-        void OnThrowAim(InputAction.CallbackContext context);
-        void OnMouseAim(InputAction.CallbackContext context);
-        void OnUltiSkill(InputAction.CallbackContext context);
-        void OnCrystalSkill(InputAction.CallbackContext context);
-        void OnHealFlask(InputAction.CallbackContext context);
+        void OnSkill3(InputAction.CallbackContext context);
+        void OnFireSkill(InputAction.CallbackContext context);
         void OnInteraction(InputAction.CallbackContext context);
     }
     public interface IUIActions

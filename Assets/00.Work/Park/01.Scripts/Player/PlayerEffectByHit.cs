@@ -15,12 +15,5 @@ public class PlayerEffectByHit : MonoBehaviour
 
     public void HandleHitInvokeEffect()
     {
-        
-        //장착중인 아이템에서 피격시 발동 아이템이 있다면 발동.
-        Inventory.Instance.equipSlots.equipments.ForEach(equip =>
-        {
-            var equipItemData = equip.data as ItemDataEquipment;
-            equipItemData.ItemEffectByHit(_player.HealthCompo);
-        });
     }
 }
