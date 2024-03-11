@@ -1,8 +1,9 @@
+using cherrydev;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameManager : MonoSingleton<GameManager>, ISaveManager
+public class GameManager : MonoSingleton<GameManager>
 {
     [SerializeField] private Player _player;
     public Transform PlayerTrm => _player.transform;
@@ -27,8 +28,11 @@ public class GameManager : MonoSingleton<GameManager>, ISaveManager
     [SerializeField] private PoolingListSO _poolingList;
     [SerializeField] private Transform _poolingTrm;
 
+    public DialogBehaviour DialogBehaviour { get; private set; }
+
     private void Awake()
     {
+        DialogBehaviour = FindObjectOfType<DialogBehaviour>();
         PoolManager.Instance = new PoolManager(_poolingTrm);
         foreach (PoolingPair pair in _poolingList.list)
         {
@@ -42,13 +46,5 @@ public class GameManager : MonoSingleton<GameManager>, ISaveManager
     public void RestartGame()
     {
         SceneManager.LoadScene(SceneList.GameScene.ToString());
-    }
-
-    public void LoadData(GameData data)
-    {
-    }
-
-    public void SaveData(ref GameData data)
-    {
     }
 }

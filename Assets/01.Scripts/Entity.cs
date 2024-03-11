@@ -12,6 +12,8 @@ public abstract class Entity : MonoBehaviour
     [SerializeField] protected LayerMask _whatIsGround;
     [SerializeField] protected Transform _wallCheck;
     [SerializeField] protected float _wallCheckDistance;
+    [SerializeField] protected float _interactCheckDistance;
+    [SerializeField] protected LayerMask _whatIsInteract;
 
     [Header("Knockback info")]
     [SerializeField] protected float _knockbackDuration;
