@@ -162,4 +162,19 @@ public class Player : Entity
     }
 
     #endregion
+
+
+    #region Debugging
+
+#if UNITY_EDITOR
+    protected override void OnDrawGizmos()
+    {
+        base.OnDrawGizmos();
+        if (_wallCheck != null)
+            Gizmos.DrawLine(_wallCheck.position,
+                _wallCheck.position + new Vector3(_interactCheckDistance, 0, 0));
+    }
+#endif
+
+    #endregion
 }

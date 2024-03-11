@@ -6,836 +6,72 @@
   <component name="ChangeListManager">
     <list default="true" id="3ff5c593-e2bb-4905-8b1d-75d16f9cbe78" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.STAC2024/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.STAC2024/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/Player/CurrencyManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/Player/CurrencyManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/Player/LevelUpManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/Player/LevelUpManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/00.Work/Baek/13_fonts/neodgm SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00.Work/Baek/13_fonts/neodgm SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/NPC/NPC.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/NPC/NPC.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/NPC/NPCDataSO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/NPC/NPCDataSO.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/Player/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/Player/PlayerEffectByHit.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/Player/PlayerEffectByHit.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/Player/PlayerFXPlayer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/Player/PlayerFXPlayer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/Player/PlayerStateMachine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/Player/PlayerStateMachine.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/Player/States/PlayerGroundedState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/Player/States/PlayerGroundedState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/Player/States/PlayerPrimaryAttackState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/Player/States/PlayerPrimaryAttackState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scenes/GameScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scripts/Combat/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scripts/Combat/Health.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/00.Work/Park/02.Scene/Test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00.Work/Park/02.Scene/Test.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/00.Work/Park/05.SO/NPCs/NPC1/NPC1 Dialog.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00.Work/Park/05.SO/NPCs/NPC1/NPC1 Dialog.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/01.Scripts/Core/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scripts/Core/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scripts/Entity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scripts/Entity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scripts/LevelProps.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scripts/SaveAndLoad.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scripts/SaveAndLoad/FileDataHandler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scripts/SaveAndLoad/FileDataHandler.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scripts/SaveAndLoad/GameData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scripts/SaveAndLoad/GameData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scripts/SaveAndLoad/ISaveManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scripts/SaveAndLoad/ISaveManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scripts/SaveAndLoad/SaveManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scripts/SaveAndLoad/SaveManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scripts/SaveAndLoad/SerializableDictionary.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scripts/SaveAndLoad/SerializableDictionary.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02Animations/Clips/player_attack_1.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02Animations/Clips/player_attack_1.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02Animations/Clips/player_attack_2.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02Animations/Clips/player_attack_2.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02Animations/Clips/player_attack_3.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02Animations/Clips/player_attack_3.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02Animations/Clips/player_dash.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02Animations/Clips/player_dash.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02Animations/Clips/player_fall.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02Animations/Clips/player_fall.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02Animations/Clips/player_idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02Animations/Clips/player_idle.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02Animations/Clips/player_jump.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02Animations/Clips/player_jump.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02Animations/Clips/player_move.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02Animations/Clips/player_move.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/02Animations/Controllers/PlayerController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02Animations/Controllers/PlayerController.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Prefabs/AreaSound.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Prefabs/AreaSound.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Prefabs/CheckpointFire.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Prefabs/CheckpointFire.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Prefabs/Coin.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Prefabs/Coin.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Prefabs/ItemDropper.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Prefabs/ItemDropper.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Prefabs/ItemObject.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Prefabs/ItemObject.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Prefabs/Manager.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Prefabs/Manager/SaveManager.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Prefabs/Manager/SaveManager.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Prefabs/PlayerFX.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Prefabs/PlayerFX.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Prefabs/SkillPrefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Prefabs/SkillPrefab/Blackhole.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Prefabs/SkillPrefab/Blackhole.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Prefabs/SkillPrefab/Clone.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Prefabs/SkillPrefab/Clone.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Prefabs/SkillPrefab/Crystal.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Prefabs/SkillPrefab/Crystal.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Prefabs/SkillPrefab/Dot.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Prefabs/SkillPrefab/Dot.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Prefabs/SkillPrefab/HotKey.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Prefabs/SkillPrefab/HotKey.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Prefabs/SkillPrefab/IceAndFire.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Prefabs/SkillPrefab/IceAndFire.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Prefabs/SkillPrefab/Sword.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Prefabs/SkillPrefab/Sword.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Prefabs/SkillPrefab/ThunderStrike.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Prefabs/SkillPrefab/ThunderStrike.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Prefabs/UIPrefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Prefabs/UIPrefab/CraftSlot.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Prefabs/UIPrefab/CraftSlot.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Prefabs/UIPrefab/FadePanel.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Prefabs/UIPrefab/FadePanel.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Prefabs/UIPrefab/ItemSlot.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Prefabs/UIPrefab/ItemSlot.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Prefabs/UIPrefab/SkillCooldownUI.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Prefabs/UIPrefab/SkillCooldownUI.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Prefabs/UIPrefab/SkillTreeSlotUI-[ SwordThrow ].prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Prefabs/UIPrefab/SkillTreeSlotUI-[ SwordThrow ].prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Prefabs/UIPrefab/Stat - strength.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Prefabs/UIPrefab/Stat - strength.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Font.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Font/DOSGothic SDF.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Font/DOSGothic SDF.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Font/DOSGothic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Font/DOSGothic.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Font/NerkoOne-Regular SDF.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Font/NerkoOne-Regular SDF.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Font/NerkoOne-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Font/NerkoOne-Regular.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Font/SyneMono-Regular SDF.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Font/SyneMono-Regular SDF.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Font/SyneMono-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Font/SyneMono-Regular.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Font/TAEBAEKfont SDF.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Font/TAEBAEKfont SDF.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Font/TAEBAEKfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Font/TAEBAEKfont.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Main Character.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Main Character/Crystal-emission.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Main Character/Crystal-emission.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Main Character/Crystalsheet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Main Character/Crystalsheet.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Main Character/Sword+Aim+Throw.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Main Character/Sword+Aim+Throw.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Main Character/SwordSpin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Main Character/SwordSpin.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Main Character/Warrior_Sheet-Effect.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Main Character/Warrior_Sheet-Effect.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Forest_Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Forest_Bg/background_layer_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Forest_Bg/background_layer_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Forest_Bg/background_layer_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Forest_Bg/background_layer_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Forest_Bg/background_layer_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Forest_Bg/background_layer_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Background.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Background/layer_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Background/layer_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Background/layer_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Background/layer_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Background/layer_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Background/layer_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candelabrum_small.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candelabrum_small/candelabrum_small_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candelabrum_small/candelabrum_small_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candelabrum_small/candelabrum_small_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candelabrum_small/candelabrum_small_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candelabrum_small/candelabrum_small_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candelabrum_small/candelabrum_small_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candelabrum_small/candelabrum_small_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candelabrum_small/candelabrum_small_4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candelabrum_small/candelabrum_small_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candelabrum_small/candelabrum_small_5.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candelabrum_small/candelabrum_small_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candelabrum_small/candelabrum_small_6.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candelabrum_small/candelabrum_small_nofire.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candelabrum_small/candelabrum_small_nofire.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candelabrum_tall.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candelabrum_tall/candelabrum_tall_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candelabrum_tall/candelabrum_tall_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candelabrum_tall/candelabrum_tall_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candelabrum_tall/candelabrum_tall_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candelabrum_tall/candelabrum_tall_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candelabrum_tall/candelabrum_tall_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candelabrum_tall/candelabrum_tall_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candelabrum_tall/candelabrum_tall_4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candelabrum_tall/candelabrum_tall_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candelabrum_tall/candelabrum_tall_5.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candelabrum_tall/candelabrum_tall_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candelabrum_tall/candelabrum_tall_6.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candelabrum_tall/candelabrum_tall_emission_sheet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candelabrum_tall/candelabrum_tall_emission_sheet.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candelabrum_tall/candelabrum_tall_nofire.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candelabrum_tall/candelabrum_tall_nofire.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candelabrum_tall/candelabrum_tall_sheet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candelabrum_tall/candelabrum_tall_sheet.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_1.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_1/candle_1_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_1/candle_1_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_1/candle_1_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_1/candle_1_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_1/candle_1_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_1/candle_1_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_1/candle_1_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_1/candle_1_4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_1/candle_1_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_1/candle_1_5.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_1/candle_1_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_1/candle_1_6.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_2.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_2/candle_2_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_2/candle_2_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_2/candle_2_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_2/candle_2_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_2/candle_2_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_2/candle_2_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_2/candle_2_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_2/candle_2_4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_2/candle_2_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_2/candle_2_5.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_2/candle_2_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_2/candle_2_6.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_3/candle_3_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_3/candle_3_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_3/candle_3_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_3/candle_3_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_3/candle_3_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_3/candle_3_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_3/candle_3_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_3/candle_3_4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_3/candle_3_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_3/candle_3_5.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_3/candle_3_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_3/candle_3_6.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_blue_1.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_blue_1/candle_blue_1_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_blue_1/candle_blue_1_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_blue_1/candle_blue_1_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_blue_1/candle_blue_1_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_blue_1/candle_blue_1_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_blue_1/candle_blue_1_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_blue_1/candle_blue_1_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_blue_1/candle_blue_1_4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_blue_1/candle_blue_1_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_blue_1/candle_blue_1_5.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_blue_1/candle_blue_1_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_blue_1/candle_blue_1_6.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_blue_2.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_blue_2/candle_blue_2_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_blue_2/candle_blue_2_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_blue_2/candle_blue_2_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_blue_2/candle_blue_2_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_blue_2/candle_blue_2_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_blue_2/candle_blue_2_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_blue_2/candle_blue_2_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_blue_2/candle_blue_2_4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_blue_2/candle_blue_2_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_blue_2/candle_blue_2_5.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_blue_2/candle_blue_2_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_blue_2/candle_blue_2_6.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_blue_3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_blue_3/candle_blue_3_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_blue_3/candle_blue_3_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_blue_3/candle_blue_3_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_blue_3/candle_blue_3_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_blue_3/candle_blue_3_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_blue_3/candle_blue_3_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_blue_3/candle_blue_3_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_blue_3/candle_blue_3_4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_blue_3/candle_blue_3_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_blue_3/candle_blue_3_5.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_blue_3/candle_blue_3_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/candle_blue_3/candle_blue_3_6.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/chest.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/chest/chest_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/chest/chest_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/chest/chest_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/chest/chest_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/chest/chest_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/chest/chest_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/chest/chest_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/chest/chest_4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/chest/chest_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/chest/chest_5.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/chest/chest_damaged.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/chest/chest_damaged.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/lever_floor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/lever_floor/lever_floor_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/lever_floor/lever_floor_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/lever_floor/lever_floor_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/lever_floor/lever_floor_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/lever_floor/lever_floor_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/lever_floor/lever_floor_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/lever_floor/lever_floor_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/lever_floor/lever_floor_4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/lever_floor/lever_floor_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/lever_floor/lever_floor_5.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/lever_floor/lever_floor_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/lever_floor/lever_floor_6.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/lever_floor/lever_floor_7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/lever_floor/lever_floor_7.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/lever_wall.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/lever_wall/lever_wall_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/lever_wall/lever_wall_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/lever_wall/lever_wall_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/lever_wall/lever_wall_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/lever_wall/lever_wall_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/lever_wall/lever_wall_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/lever_wall/lever_wall_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/lever_wall/lever_wall_4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/lever_wall/lever_wall_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/lever_wall/lever_wall_5.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/lever_wall/lever_wall_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/lever_wall/lever_wall_6.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_big.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_big/torch_big_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_big/torch_big_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_big/torch_big_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_big/torch_big_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_big/torch_big_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_big/torch_big_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_big/torch_big_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_big/torch_big_4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_big/torch_big_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_big/torch_big_5.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_big/torch_big_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_big/torch_big_6.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_big/torch_big_background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_big/torch_big_background.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_big_blue.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_big_blue/torch_big_blue_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_big_blue/torch_big_blue_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_big_blue/torch_big_blue_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_big_blue/torch_big_blue_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_big_blue/torch_big_blue_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_big_blue/torch_big_blue_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_big_blue/torch_big_blue_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_big_blue/torch_big_blue_4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_big_blue/torch_big_blue_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_big_blue/torch_big_blue_5.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_big_blue/torch_big_blue_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_big_blue/torch_big_blue_6.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_big_blue/torch_big_blue_background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_big_blue/torch_big_blue_background.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_small.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_small/torch_small_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_small/torch_small_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_small/torch_small_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_small/torch_small_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_small/torch_small_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_small/torch_small_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_small/torch_small_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_small/torch_small_4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_small/torch_small_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_small/torch_small_5.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_small/torch_small_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_small/torch_small_6.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_small/torch_small_background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_small/torch_small_background.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_small_blue.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_small_blue/torch_small_blue_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_small_blue/torch_small_blue_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_small_blue/torch_small_blue_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_small_blue/torch_small_blue_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_small_blue/torch_small_blue_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_small_blue/torch_small_blue_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_small_blue/torch_small_blue_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_small_blue/torch_small_blue_4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_small_blue/torch_small_blue_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_small_blue/torch_small_blue_5.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_small_blue/torch_small_blue_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_small_blue/torch_small_blue_6.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_small_blue/torch_small_blue_background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Animated Decorations/torch_small_blue/torch_small_blue_background.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/axe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/axe.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/bag_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/bag_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/bag_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/bag_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/barrel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/barrel.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/barrel_damaged.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/barrel_damaged.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/books.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/books.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/bookshelf_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/bookshelf_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/bookshelf_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/bookshelf_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/chair_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/chair_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/chair_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/chair_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/crate_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/crate_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/crate_1_damaged.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/crate_1_damaged.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/crate_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/crate_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/crate_2_damaged.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/crate_2_damaged.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/crate_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/crate_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/crate_3_damaged.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/crate_3_damaged.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/curtain_blue_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/curtain_blue_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/curtain_blue_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/curtain_blue_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/curtain_red_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/curtain_red_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/curtain_red_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/curtain_red_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/door.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/door.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/flag_blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/flag_blue.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/flag_red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/flag_red.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/langdebeve.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/langdebeve.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/pole_axe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/pole_axe.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/potion_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/potion_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/potion_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/potion_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/potion_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/potion_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/potion_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/potion_4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/potions_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/potions_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/potions_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/potions_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/scroll_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/scroll_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/scroll_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/scroll_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/sword_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/sword_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/sword_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/sword_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/table_noshadow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/table_noshadow.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/table_shadow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/table_shadow.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/weapon_rack.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/weapon_rack.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/wood_plank_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/wood_plank_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/wood_plank_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/wood_plank_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/wood_plank_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Decorations/wood_plank_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/HUD.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/HUD/bar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/HUD/bar.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/HUD/bar_background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/HUD/bar_background.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/HUD/health_bar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/HUD/health_bar.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/HUD/weapon_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/HUD/weapon_icon.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/arch_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/arch_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/arch_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/arch_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/arch_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/arch_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/arch_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/arch_4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/arch_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/arch_5.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/arch_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/arch_6.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/arch_7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/arch_7.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/blank.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/blank.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_10.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_11.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_12.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_13.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_14.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_15.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_16.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_5.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_6.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_7.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_8.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_9.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_side_left_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_side_left_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_side_left_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_side_left_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_side_right_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_side_right_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_side_right_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_side_right_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/ceiling_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/ceiling_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/ceiling_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/ceiling_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/ceiling_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/ceiling_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/ceiling_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/ceiling_4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/ceiling_corner_left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/ceiling_corner_left.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/ceiling_corner_right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/ceiling_corner_right.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/ceiling_transparent_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/ceiling_transparent_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/ceiling_transparent_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/ceiling_transparent_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/column_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/column_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/column_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/column_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/column_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/column_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/column_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/column_4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/column_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/column_5.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/column_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/column_6.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/column_7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/column_7.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/column_8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/column_8.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/damaged_brick_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/damaged_brick_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/damaged_brick_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/damaged_brick_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/damaged_brick_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/damaged_brick_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/damaged_brick_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/damaged_brick_4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_carpet_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_carpet_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_carpet_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_carpet_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_carpet_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_carpet_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_carpet_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_carpet_4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_carpet_corner_left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_carpet_corner_left.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_carpet_corner_right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_carpet_corner_right.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_carpet_transition_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_carpet_transition_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_carpet_transition_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_carpet_transition_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_corner_left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_corner_left.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_corner_right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_corner_right.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_wood_carpet_transition_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_wood_carpet_transition_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_wood_carpet_transition_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_wood_carpet_transition_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_wood_transition_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_wood_transition_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_wood_transition_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_wood_transition_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_wood_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_wood_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_wood_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_wood_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_wood_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_wood_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_wood_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_wood_4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_wood_carpet_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_wood_carpet_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_wood_carpet_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_wood_carpet_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_wood_carpet_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_wood_carpet_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_wood_carpet_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_wood_carpet_4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_wood_carpet_corner_left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_wood_carpet_corner_left.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_wood_carpet_corner_right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_wood_carpet_corner_right.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_wood_carpet_transition_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_wood_carpet_transition_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_wood_carpet_transition_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_wood_carpet_transition_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_wood_corner_left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_wood_corner_left.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_wood_corner_right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_wood_corner_right.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/lion_column_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/lion_column_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/lion_column_10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/lion_column_10.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/lion_column_11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/lion_column_11.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/lion_column_12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/lion_column_12.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/lion_column_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/lion_column_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/lion_column_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/lion_column_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/lion_column_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/lion_column_4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/lion_column_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/lion_column_5.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/lion_column_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/lion_column_6.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/lion_column_7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/lion_column_7.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/lion_column_8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/lion_column_8.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/lion_column_9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/lion_column_9.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/merlons_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/merlons_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/merlons_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/merlons_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/merlons_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/merlons_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/merlons_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/merlons_4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/merlons_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/merlons_5.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/platform_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/platform_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/platform_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/platform_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/platform_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/platform_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/platform_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/platform_4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/platform_shadow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/platform_shadow.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/platform_wall_connection_left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/platform_wall_connection_left.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/platform_wall_connection_right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/platform_wall_connection_right.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/spikes.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/spikes.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_tile_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_tile_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_tile_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_tile_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_tile_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_tile_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_tile_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_tile_4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_tile_carpet_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_tile_carpet_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_tile_carpet_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_tile_carpet_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_tile_carpet_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_tile_carpet_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_tile_carpet_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_tile_carpet_4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_wood_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_wood_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_wood_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_wood_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_wood_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_wood_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_wood_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_wood_4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_wood_carpet_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_wood_carpet_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_wood_carpet_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_wood_carpet_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_wood_carpet_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_wood_carpet_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_wood_carpet_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_wood_carpet_4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/tile_side_left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/tile_side_left.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/tile_side_right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/tile_side_right.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_10.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_11.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_12.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_13.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_14.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_15.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_16.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_17.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_18.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_5.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_6.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_7.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_8.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_9.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/window_big_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/window_big_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/window_big_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/window_big_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/window_big_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/window_big_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/window_big_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/window_big_4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/window_big_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/window_big_5.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/window_big_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/window_big_6.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/window_glass_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/window_glass_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/window_glass_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/window_glass_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/window_glass_tall_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/window_glass_tall_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/window_glass_tall_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/window_glass_tall_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/window_glass_tall_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/window_glass_tall_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/window_small_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/window_small_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/window_small_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/window_small_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/window_tall_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/window_tall_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/window_tall_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/window_tall_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/window_tall_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/window_tall_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Valley_Decor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Valley_Decor/fence_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Valley_Decor/fence_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Valley_Decor/fence_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Valley_Decor/fence_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Valley_Decor/grass_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Valley_Decor/grass_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Valley_Decor/grass_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Valley_Decor/grass_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Valley_Decor/grass_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Valley_Decor/grass_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Valley_Decor/lamp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Valley_Decor/lamp.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Valley_Decor/rock_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Valley_Decor/rock_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Valley_Decor/rock_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Valley_Decor/rock_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Valley_Decor/rock_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Valley_Decor/rock_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Valley_Decor/shop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Valley_Decor/shop.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Valley_Decor/shop_anim.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Valley_Decor/shop_anim.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Valley_Decor/sign.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Surroundings/Valley_Decor/sign.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/Extra.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/Extra/UIartdeco_PIPO_pack2_blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/Extra/UIartdeco_PIPO_pack2_blue.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/Extra/UIartdeco_PIPO_pack2_brown.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/Extra/UIartdeco_PIPO_pack2_brown.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/Extra/UIartdeco_PIPO_pack2_green.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/Extra/UIartdeco_PIPO_pack2_green.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/Extra/UIartdeco_PIPO_pack2_red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/Extra/UIartdeco_PIPO_pack2_red.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/Extra/artdecoUI_PIPO_brown.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/Extra/artdecoUI_PIPO_brown.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/Extra/artdecoUI_PIPO_red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/Extra/artdecoUI_PIPO_red.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/Extra/artdecoUI_PIPO_tr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/Extra/artdecoUI_PIPO_tr.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/Keyboard Letters and Symbols.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/Keyboard Letters and Symbols.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/UI_Green_Transperent.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/UI_Green_Transperent.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/UI_HealthBar 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/UI_HealthBar 1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/UI_HealthBar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/UI_HealthBar.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/UI_SkillTree.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/UI_SkillTree.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/UI_White_Blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/UI_White_Blue.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/UI_White_Transperent.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/UI_White_Transperent.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/UI_background 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/UI_background 1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/UI_background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/UI_background.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/UIartdeco_PIPO_pack2_blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/UIartdeco_PIPO_pack2_blue.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/UIartdeco_PIPO_pack2_brown.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/UIartdeco_PIPO_pack2_brown.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/UIartdeco_PIPO_pack2_green.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/UIartdeco_PIPO_pack2_green.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/UIartdeco_PIPO_pack2_red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/UIartdeco_PIPO_pack2_red.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/UIartdeco_PIPO_pack2_white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/UIartdeco_PIPO_pack2_white.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/artdecoUI_PIPO_brown.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/artdecoUI_PIPO_brown.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/artdecoUI_PIPO_green.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/artdecoUI_PIPO_green.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/artdecoUI_PIPO_red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/artdecoUI_PIPO_red.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/artdecoUI_PIPO_tr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/artdecoUI_PIPO_tr.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/artdecoUI_PIPO_wb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/artdecoUI_PIPO_wb.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/healthbar_simple.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/healthbar_simple.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/uibutton.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/UI/uibutton.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/DemoDialogGraph.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/DemoDialogGraph.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/DemoScenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/DemoScenes/DialogDemoScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/DemoScenes/DialogDemoScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/DemoScenes/New Scene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/DemoScenes/New Scene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/Documentation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/Documentation/NBDS Guide.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/Documentation/NBDS Guide.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/Prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/Prefab/Answer Button.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/Prefab/Answer Button.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/Prefab/Dialog Prefab.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/Prefab/Dialog Prefab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/Resources/Sprites.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/Resources/Sprites/comment-box-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/Resources/Sprites/comment-box-icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/Resources/Sprites/comments-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/Resources/Sprites/comments-icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/Resources/Sprites/default-avatar-profile-picture-male-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/Resources/Sprites/default-avatar-profile-picture-male-icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/Scripts/Demo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/Scripts/Demo/TestDialogStarter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/Scripts/Demo/TestDialogStarter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/Scripts/Dialog.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/Scripts/Dialog/AnswerPanel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/Scripts/Dialog/AnswerPanel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/Scripts/Dialog/DialogBehaviour.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/Scripts/Dialog/DialogBehaviour.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/Scripts/Dialog/DialogDisplayer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/Scripts/Dialog/DialogDisplayer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/Scripts/Dialog/DialogExternalFunctionsHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/Scripts/Dialog/DialogExternalFunctionsHandler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/Scripts/Dialog/SentencePanel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/Scripts/Dialog/SentencePanel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/Scripts/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/Scripts/Editor/DialogNodeGraphEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/Scripts/Editor/DialogNodeGraphEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/Scripts/Editor/NodeEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/Scripts/Editor/NodeEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/Scripts/Misc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/Scripts/Misc/Sentence.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/Scripts/Misc/Sentence.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/Scripts/Misc/StringConstants.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/Scripts/Misc/StringConstants.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/Scripts/Nodes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/Scripts/Nodes/AnswerNode.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/Scripts/Nodes/AnswerNode.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/Scripts/Nodes/DialogNodeGraph.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/Scripts/Nodes/DialogNodeGraph.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/Scripts/Nodes/Node.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/Scripts/Nodes/Node.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/Scripts/Nodes/SentenceNode.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DialogNodeBasedSystem/Scripts/Nodes/SentenceNode.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -848,6 +84,8 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0abd682cf71c47b7a0a8ab90da9f508720a00/26/1220edbf/Physics2D.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2acbecbc299e4654adc94df891af51f2952c00/b3/f0b526b0/Editor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d44b17e136d09081da1e8fd0e8c83fde60e11818b9f2442d7ed8cb733fae895e/System.Collections.Generic.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/Core/Quest/Goals/TestGoal.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/NPC/Editor/NPCDataSOEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/NPC/NPC.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/NPC/NPCDataSO.cs" root0="FORCE_HIGHLIGHTING" />
@@ -861,27 +99,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "PJH",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;PJH&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\bagj2\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\bagj2\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\bagj2\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\bagj2\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\bagj2\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\bagj2\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Unity 에디터에 연결.Unity 에디터에 연결">
     <configuration name="유닛 테스트(배치 모드)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.19f1\Editor\Unity.exe" />
@@ -928,7 +166,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710156307644</updated>
-      <workItem from="1710156310769" duration="6802000" />
+      <workItem from="1710156310769" duration="13604000" />
     </task>
     <servers />
   </component>
