@@ -10,7 +10,7 @@ public class InputReader : ScriptableObject, Controls.IPlayerActions, Controls.I
     public event Action DashEvent;
     public event Action FireSkillEvent;
     public event Action Skill3Event;
-    public event Action<bool> InteractionEvent;
+    public event Action InteractionEvent;
     public Vector2 AimPosition { get; private set; }
     public float xInput { get; private set; }
     public float yInput { get; private set; }
@@ -57,6 +57,7 @@ public class InputReader : ScriptableObject, Controls.IPlayerActions, Controls.I
             AttackEvent?.Invoke();
         }
     }
+
     public void OnFireSkill(InputAction.CallbackContext context)
     {
         if (context.performed)
@@ -76,13 +77,9 @@ public class InputReader : ScriptableObject, Controls.IPlayerActions, Controls.I
 
     public void OnInteraction(InputAction.CallbackContext context)
     {
-        if (context.performed)
+        if (context.started)
         {
-            InteractionEvent?.Invoke(true);
-        }
-        else if (context.canceled)
-        {
-            InteractionEvent?.Invoke(false);
+            InteractionEvent?.Invoke();
         }
     }
 

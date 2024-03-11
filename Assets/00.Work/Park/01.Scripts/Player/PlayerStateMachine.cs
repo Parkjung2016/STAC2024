@@ -12,6 +12,7 @@ public enum StateEnum
     WallJump,
     PrimaryAttack,
     Dead,
+    Interact,
 }
 public class PlayerStateMachine
 {

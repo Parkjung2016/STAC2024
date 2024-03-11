@@ -16,6 +16,17 @@ public class PlayerGroundedState : PlayerState
         base.Enter();
         _player.PlayerInput.JumpEvent += OnHandleJump;
         _player.PlayerInput.AttackEvent += OnHandleAttack;
+        _player.PlayerInput.InteractionEvent += OnHandleInteraction;
+    }
+
+    private void OnHandleInteraction()
+    {
+        IInteract interact = _player.IsInteractObjectDetected();
+        if (interact != null)
+        {
+            interact.Interact();
+            _player.StateMachine.ChangeState(StateEnum.Interact);
+        }
     }
 
     public override void UpdateState()
@@ -25,6 +36,8 @@ public class PlayerGroundedState : PlayerState
         {
             _stateMachine.ChangeState(StateEnum.Fall);
         }
+
+       
     }
 
     public override void Exit()
