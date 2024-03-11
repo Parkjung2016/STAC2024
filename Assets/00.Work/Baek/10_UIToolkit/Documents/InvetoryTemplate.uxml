@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/00.Work/Baek/10_UIToolkit/Styels/InvectoryTemplate.uss?fileID=7433441132597879392&amp;guid=208718c19cf3b3648b0d5ef3d2bde568&amp;type=3#InvectoryTemplate" />
+    <ui:VisualElement name="screen_contain-box" class="screen_contain-box">
+        <ui:VisualElement name="inventory_contain_background-box" class="inventory_contain_background-box">
+            <ui:VisualElement name="inventory_top_contain-box" class="inventory_top_contain-box">
+                <ui:VisualElement name="inventory_contain_outline-box" class="inventory_contain_outline-box">
+                    <ui:Label tabindex="-1" text="Inventory" parse-escape-sequences="true" display-tooltip-when-elided="true" name="current_window-label" class="current_window-label" />
+                </ui:VisualElement>
+                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="exit-button" class="exit-button">
+                    <ui:VisualElement name="exit_icon-button" class="exit_icon-button" />
+                </ui:Button>
+            </ui:VisualElement>
+            <ui:VisualElement name="VisualElement" style="flex-grow: 1; width: 95.2px; height: 622px; background-image: url(&apos;project://database/Assets/Graphics/Surroundings/Medieval_Castle/Tiles/arch_7.png?fileID=2800000&amp;guid=2ff1ab1e04276884eb1de48be63d6cce&amp;type=3#arch_7&apos;); background-color: rgb(255, 0, 0);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
