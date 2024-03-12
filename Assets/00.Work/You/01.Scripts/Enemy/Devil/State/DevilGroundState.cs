@@ -23,7 +23,7 @@ public class DevilGroundState : EnemyState<DevilStateEnum>
 
         float distance = Vector2.Distance(_enemyBase.transform.position, _player.transform.position);
 
-        if (distance < 2 || hit && _enemyBase.IsObstacleInLine(hit.distance))
+        if (distance < 2 || hit && !_enemyBase.IsObstacleInLine(hit.distance))
         {
             _stateMachine.ChangeState(DevilStateEnum.Battle);
             return;

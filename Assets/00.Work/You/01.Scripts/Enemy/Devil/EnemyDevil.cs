@@ -9,8 +9,10 @@ public enum DevilStateEnum
     Move,
     Battle,
     Attack,
-    Fire,
-    Dead
+    //Fire,
+    Dead,
+    Hit,
+    Breathe
 }
 
 public class EnemyDevil : Enemy
@@ -24,8 +26,8 @@ public class EnemyDevil : Enemy
 
         foreach(DevilStateEnum state in Enum.GetValues(typeof(DevilStateEnum)))
         {
-            string typeName = Stat.ToString();
-            Type t = Type.GetType($"Skeleton{typeName}State");
+            string typeName = state.ToString();
+            Type t = Type.GetType($"Devil{typeName}State");
 
             if(t != null)
             {
@@ -42,7 +44,7 @@ public class EnemyDevil : Enemy
     protected override void Start()
     {
         base.Start();
-        StateMachine.Initialize(DevilStateEnum.Idle);
+        StateMachine.Initialize(DevilStateEnum.Idle, this);
     }
 
     protected override void Update()
