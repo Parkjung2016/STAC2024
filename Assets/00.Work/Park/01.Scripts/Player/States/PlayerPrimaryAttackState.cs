@@ -7,7 +7,7 @@ public class PlayerPrimaryAttackState : PlayerState
 {
     private int _comboCounter;
     private float _lastTimeAttacked;
-    private float _comboWindow = 2;
+    private float _comboWindow = 1;
     private readonly int _comboCountHash = Animator.StringToHash("ComboCounter");
 
     public PlayerPrimaryAttackState(Player player, PlayerStateMachine stateMachine, string animBoolName) : base(player,

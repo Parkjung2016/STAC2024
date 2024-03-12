@@ -17,6 +17,7 @@ public class NPC : MonoBehaviour, IInteract
 
     public void Interact()
     {
+        if (!_data.CanDialog) return;
         ConversationManager.Instance.StartConversation(_conversation);
     }
 

@@ -11,7 +11,6 @@ public class Quest
     public Goal CurrentGoal { get; set; }
     public string QuestName { get; set; }
     public string Description { get; set; }
-    public int ExperiencedReward { get; set; }
     public int ItemReward { get; set; }
     public bool Completed { get; set; }
 
@@ -35,10 +34,7 @@ public class Quest
 
     public void UpdateGoal()
     {
-        for (int i = 0; i < _goals.Count; i++)
-        {
-            _goals[i].Update();
-        }
+        if (CurrentGoal != null) CurrentGoal.Update();
     }
 
     public void NextGoal()
@@ -47,12 +43,11 @@ public class Quest
         if (!CheckQuest())
         {
             int idx = _goals.IndexOf(CurrentGoal);
-            _goals[idx + 1].Complete();
+            CurrentGoal = _goals[idx + 1];
         }
     }
 
-    private void GiveReward()
+    protected virtual void GiveReward()
     {
-        Debug.Log("끝");
     }
 }

@@ -10,7 +10,9 @@ public class QuestManager : MonoSingleton<QuestManager>
         Quest quest = new Quest();
         quest.QuestName = questName;
         TestGoal goal = new TestGoal();
+        TestGoal2 goal2 = new TestGoal2();
         quest.AddGoal(goal);
+        quest.AddGoal(goal2);
         _questDictionary.Add(questName, quest);
     }
 

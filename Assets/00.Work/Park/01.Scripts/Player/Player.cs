@@ -31,7 +31,6 @@ public class Player : Entity
     public bool canStateChangeable = true;
     protected bool _isDead = false;
 
-
     protected override void Awake()
     {
         base.Awake();
