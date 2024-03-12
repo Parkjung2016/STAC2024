@@ -41,7 +41,7 @@ public class EnemySkelecton : Enemy
     protected override void Start()
     {
         base.Start();
-        StateMachine.Initialize(SkelectonStateEnum.Idle);
+        StateMachine.Initialize(SkelectonStateEnum.Idle, this);
     }
 
     protected override void Update()
