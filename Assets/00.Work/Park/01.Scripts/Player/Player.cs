@@ -18,16 +18,8 @@ public class Player : Entity
 
     [Header("Attack Settings")] public Vector2[] attackMovement; //앞으로 전진하는 정도.
     public float attackSpeed = 1f;
-    public float counterAttackDuration = 0.2f;
-    public Transform backTrm; //후면에 따라다니는 오브젝트들을 위한
 
     public bool IsBusy { get; private set; } = false;
-
-    #region Player components
-
-    public PlayerFXPlayer FxPlayer { get; private set; }
-
-    #endregion
 
     [HideInInspector] public SkillManager skill;
 
@@ -35,15 +27,9 @@ public class Player : Entity
     [SerializeField] private InputReader _inputReader;
     public InputReader PlayerInput => _inputReader;
 
-    //궁극기 썼을 때 하늘로 올라가는 시간 설정. 경우에 따라 다르게 설정됨.
-    [HideInInspector] public float flyTimerOnUlti = 0.3f;
-
-    //궁극기 쓰면 피격이나 
+    public int currentComboCounter { get; set; }
     public bool canStateChangeable = true;
     protected bool _isDead = false;
-
-    //현재 콤보상태 저장
-    [HideInInspector] public int currentComboCounter = 0;
 
     protected override void Awake()
     {
@@ -65,9 +51,6 @@ public class Player : Entity
                 Debug.LogError($"{typeName} is loading error, Message : {ex.Message}");
             }
         }
-
-        //FX재생을 위한 플레이어.
-        FxPlayer = transform.Find("PlayerFX").GetComponent<PlayerFXPlayer>();
     }
 
     protected override void Start()
@@ -121,17 +104,11 @@ public class Player : Entity
     }
 
 
-    //플레이어의 공격관련 코드들.
     public override void Attack()
     {
-        //공격 사운드 재생
         AudioManager.Instance.PlaySFX(2, sourceTrm: null, withRandomPitch: true);
 
         bool hitAttack = DamageCasterCompo.CastDamage(); //공격에 적이 맞았는가?
-
-        // ItemDataEquipment equip = Inventory.Instance.GetEquipmentByType(EquipmentType.Weapon);
-        // if (equip != null)
-        //     equip.ItemEffectByMelee(hitAttack); // 무기 이펙트 실행
     }
 
     protected override void Update()
@@ -157,11 +134,9 @@ public class Player : Entity
         dashSpeed = _defaultDashSpeed;
     }
 
-    //현재 상태에서 애니메이션이 종료되었음을 트리거 한다.
     public void AnimationTrigger() => StateMachine.CurrentState.AnimationFinishTrigger();
 
 
-    //IsBusy 셋팅함수  (MS단위로 입력)
     public async void SetIsBusyWhenDelayTime(int delayTimeMS)
     {
         IsBusy = true;
@@ -175,4 +150,30 @@ public class Player : Entity
         float endValue = fadeOut ? 0 : 1f;
         SpriteRendererCompo.DOFade(endValue, sec);
     }
+
+    #region Check Collision
+
+    public IInteract IsInteractObjectDetected()
+    {
+        RaycastHit2D hit = Physics2D.Raycast(_wallCheck.position, Vector2.right * FacingDirection,
+            _interactCheckDistance, _whatIsInteract);
+        return hit.transform == null ? null : hit.transform.GetComponent<IInteract>();
+    }
+
+    #endregion
+
+
+    #region Debugging
+
+#if UNITY_EDITOR
+    protected override void OnDrawGizmos()
+    {
+        base.OnDrawGizmos();
+        if (_wallCheck != null)
+            Gizmos.DrawLine(_wallCheck.position,
+                _wallCheck.position + new Vector3(_interactCheckDistance, 0, 0));
+    }
+#endif
+
+    #endregion
 }

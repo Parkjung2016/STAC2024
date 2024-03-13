@@ -95,13 +95,11 @@ public class Health : MonoBehaviour, IDamageable
         //완벽 회피 계산.
         if (_owner.Stat.CanEvasion())
         {
-            Debug.Log($"{_owner.gameObject.name} is evasion attack!");
             return;
         }
         //크리티컬확률에 따라 크리티컬인지 확인하고 데미지 증뎀
         if (dealer.Stat.IsCritical(ref damage))
         {
-            Debug.Log($"Critical! : {damage}"); //데미지 증뎀되었음.
             isLastHitCritical = true;
         }
         else
@@ -130,7 +128,6 @@ public class Health : MonoBehaviour, IDamageable
     {
         int magicDamage = _owner.Stat.GetMagicDamageAfterResist(damage);
         _currentHealth = Mathf.Clamp(_currentHealth - magicDamage, 0, maxHealth);
-        Debug.Log($"apply magic damage to {_owner.gameObject.name}! : {damage}");
         
         knockbackPower.x *= attackDirection.x; //y값은 고정으로.
         

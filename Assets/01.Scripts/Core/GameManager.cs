@@ -1,8 +1,9 @@
 using DG.Tweening;
+using DialogueEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameManager : MonoSingleton<GameManager>, ISaveManager
+public class GameManager : MonoSingleton<GameManager>
 {
     [SerializeField] private Player _player;
     public Transform PlayerTrm => _player.transform;
@@ -27,6 +28,7 @@ public class GameManager : MonoSingleton<GameManager>, ISaveManager
     [SerializeField] private PoolingListSO _poolingList;
     [SerializeField] private Transform _poolingTrm;
 
+
     private void Awake()
     {
         PoolManager.Instance = new PoolManager(_poolingTrm);
@@ -42,13 +44,5 @@ public class GameManager : MonoSingleton<GameManager>, ISaveManager
     public void RestartGame()
     {
         SceneManager.LoadScene(SceneList.GameScene.ToString());
-    }
-
-    public void LoadData(GameData data)
-    {
-    }
-
-    public void SaveData(ref GameData data)
-    {
     }
 }

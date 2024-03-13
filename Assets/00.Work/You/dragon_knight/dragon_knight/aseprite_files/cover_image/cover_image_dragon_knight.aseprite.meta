@@ -1,0 +1,1035 @@
+fileFormatVersion: 2
+guid: 4694340cc1ff2b84d92988c6473fac35
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: cover_image_dragon_knight_Frame_0
+    originalName: 
+    pivot: {x: 0.5576923, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 130
+      height: 64
+    spriteID: 3d23fb5a092adf84f8348c26b80af4fc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: cover_image_dragon_knight_Frame_1
+    originalName: 
+    pivot: {x: 0.5576923, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 76
+      width: 130
+      height: 64
+    spriteID: d9a0f6f4b7e7f7440b4d2f2d58ec96c1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 76}
+  - name: cover_image_dragon_knight_Frame_2
+    originalName: 
+    pivot: {x: 0.5576923, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 148
+      width: 130
+      height: 64
+    spriteID: 2401cb692e4b74941ba221b72750e579
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 148}
+  - name: cover_image_dragon_knight_Frame_3
+    originalName: 
+    pivot: {x: 0.5576923, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 220
+      width: 130
+      height: 64
+    spriteID: 559b7a42b5861ff4796e433de7e3f205
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 220}
+  - name: cover_image_dragon_knight_Frame_4
+    originalName: 
+    pivot: {x: 0.5576923, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 292
+      width: 130
+      height: 64
+    spriteID: c082eff22c182b544b4b5d8d909a1a0f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 292}
+  - name: cover_image_dragon_knight_Frame_5
+    originalName: 
+    pivot: {x: 0.5576923, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 364
+      width: 130
+      height: 64
+    spriteID: 1c140cd3e4c44e543818690adba1ab03
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 364}
+  - name: cover_image_dragon_knight_Frame_6
+    originalName: 
+    pivot: {x: 0.5576923, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 436
+      width: 130
+      height: 64
+    spriteID: 18342a926c5ea014093ab1cda944f9d5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 436}
+  - name: cover_image_dragon_knight_Frame_7
+    originalName: 
+    pivot: {x: 0.5576923, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 508
+      width: 130
+      height: 64
+    spriteID: 70577e764c7c59c438a491ad10615def
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 508}
+  - name: cover_image_dragon_knight_Frame_8
+    originalName: 
+    pivot: {x: 0.5576923, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 580
+      width: 130
+      height: 64
+    spriteID: 434a8be980c37524d94ad8bdc0ccf594
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 580}
+  - name: cover_image_dragon_knight_Frame_9
+    originalName: 
+    pivot: {x: 0.5576923, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 652
+      width: 130
+      height: 64
+    spriteID: 8ff60754398073c4a9422789bb045ac8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 652}
+  - name: cover_image_dragon_knight_Frame_10
+    originalName: 
+    pivot: {x: 0.5576923, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 724
+      width: 130
+      height: 64
+    spriteID: b46fda5ee9a0b1e4989012b70ee6f783
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 724}
+  - name: cover_image_dragon_knight_Frame_11
+    originalName: 
+    pivot: {x: 0.5576923, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 796
+      width: 130
+      height: 64
+    spriteID: d78bee40463e25f40bc220f35e45e6be
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 796}
+  - name: cover_image_dragon_knight_Frame_12
+    originalName: 
+    pivot: {x: 0.5576923, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 868
+      width: 130
+      height: 64
+    spriteID: 445c72945d414884baa339437325295c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 868}
+  - name: cover_image_dragon_knight_Frame_13
+    originalName: 
+    pivot: {x: 0.5576923, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 940
+      width: 130
+      height: 64
+    spriteID: 333287648bed13449addf24c58ab1ddf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 940}
+  - name: cover_image_dragon_knight_Frame_14
+    originalName: 
+    pivot: {x: 0.5576923, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 4
+      width: 130
+      height: 64
+    spriteID: bd2c72f48356ce848a6420d28e5a0444
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 4}
+  - name: cover_image_dragon_knight_Frame_15
+    originalName: 
+    pivot: {x: 0.5576923, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 76
+      width: 130
+      height: 64
+    spriteID: 2b8beb881efbd344c8f0f543b82ab279
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 76}
+  - name: cover_image_dragon_knight_Frame_16
+    originalName: 
+    pivot: {x: 0.5576923, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 148
+      width: 130
+      height: 64
+    spriteID: 8d95390b361bcce4bba4b876d88e4417
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 148}
+  - name: cover_image_dragon_knight_Frame_17
+    originalName: 
+    pivot: {x: 0.5576923, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 220
+      width: 130
+      height: 64
+    spriteID: 44dc911719cea59488e168d196dbbe72
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 220}
+  - name: cover_image_dragon_knight_Frame_18
+    originalName: 
+    pivot: {x: 0.5576923, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 292
+      width: 130
+      height: 64
+    spriteID: 7f440e1f3a2aa624f9687d36f7b38954
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 292}
+  - name: cover_image_dragon_knight_Frame_19
+    originalName: 
+    pivot: {x: 0.5576923, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 364
+      width: 130
+      height: 64
+    spriteID: b00df453f17b6844696e34704832a254
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 364}
+  - name: cover_image_dragon_knight_Frame_20
+    originalName: 
+    pivot: {x: 0.5576923, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 436
+      width: 130
+      height: 64
+    spriteID: 86cbbea0bc54f724ca4f8ff7342becfb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 436}
+  - name: cover_image_dragon_knight_Frame_21
+    originalName: 
+    pivot: {x: 0.5576923, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 508
+      width: 130
+      height: 64
+    spriteID: 0e9d3977f88b6c04e9511f86fe521012
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 508}
+  - name: cover_image_dragon_knight_Frame_22
+    originalName: 
+    pivot: {x: 0.5576923, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 580
+      width: 130
+      height: 64
+    spriteID: 9b685acea8fe11346abdb14c326a33e0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 580}
+  - name: cover_image_dragon_knight_Frame_23
+    originalName: 
+    pivot: {x: 0.5576923, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 652
+      width: 130
+      height: 64
+    spriteID: 04d94ac8d0c00134b9df2c42c31f4778
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 652}
+  - name: cover_image_dragon_knight_Frame_24
+    originalName: 
+    pivot: {x: 0.5576923, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 724
+      width: 130
+      height: 64
+    spriteID: e8b5ef942236c354180093f276cb7f03
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 724}
+  - name: cover_image_dragon_knight_Frame_25
+    originalName: 
+    pivot: {x: 0.5576923, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 796
+      width: 130
+      height: 64
+    spriteID: 4d2752fc2c8be6648bb299b1f551387f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 796}
+  - name: cover_image_dragon_knight_Frame_26
+    originalName: 
+    pivot: {x: 0.5576923, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 868
+      width: 130
+      height: 64
+    spriteID: 86515c6f13aca4c48a36e43d75e6e43a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 868}
+  - name: cover_image_dragon_knight_Frame_27
+    originalName: 
+    pivot: {x: 0.5576923, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 940
+      width: 130
+      height: 64
+    spriteID: 701082a2da8919d4783009636c13bfc6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 940}
+  - name: cover_image_dragon_knight_Frame_28
+    originalName: 
+    pivot: {x: 0.5576923, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 280
+      y: 4
+      width: 130
+      height: 64
+    spriteID: ab6b40de8b4ebab499998c30cb486656
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 280, y: 4}
+  - name: cover_image_dragon_knight_Frame_29
+    originalName: 
+    pivot: {x: 0.5576923, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 280
+      y: 76
+      width: 130
+      height: 64
+    spriteID: 0ab8a4e718621894eb81c4cc46b162a6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 280, y: 76}
+  - name: cover_image_dragon_knight_Frame_30
+    originalName: 
+    pivot: {x: 0.5576923, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 280
+      y: 148
+      width: 130
+      height: 64
+    spriteID: 341069075ddd0f84c893de56c3fef652
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 280, y: 148}
+  - name: cover_image_dragon_knight_Frame_31
+    originalName: 
+    pivot: {x: 0.5576923, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 280
+      y: 220
+      width: 130
+      height: 64
+    spriteID: 4267c8fe256143e46972dbf4b17b13d9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 280, y: 220}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1617250833
+    name: cover_image_dragon_knight
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: cover_image_dragon_knight_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: -15
+        y: 0
+        width: 130
+        height: 64
+      spriteId: 3d23fb5a092adf84f8348c26b80af4fc
+    - name: cover_image_dragon_knight_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: -15
+        y: 0
+        width: 130
+        height: 64
+      spriteId: d9a0f6f4b7e7f7440b4d2f2d58ec96c1
+    - name: cover_image_dragon_knight_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: -15
+        y: 0
+        width: 130
+        height: 64
+      spriteId: 2401cb692e4b74941ba221b72750e579
+    - name: cover_image_dragon_knight_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: -15
+        y: 0
+        width: 130
+        height: 64
+      spriteId: 559b7a42b5861ff4796e433de7e3f205
+    - name: cover_image_dragon_knight_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: -15
+        y: 0
+        width: 130
+        height: 64
+      spriteId: c082eff22c182b544b4b5d8d909a1a0f
+    - name: cover_image_dragon_knight_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: -15
+        y: 0
+        width: 130
+        height: 64
+      spriteId: 1c140cd3e4c44e543818690adba1ab03
+    - name: cover_image_dragon_knight_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: -15
+        y: 0
+        width: 130
+        height: 64
+      spriteId: 18342a926c5ea014093ab1cda944f9d5
+    - name: cover_image_dragon_knight_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: -15
+        y: 0
+        width: 130
+        height: 64
+      spriteId: 70577e764c7c59c438a491ad10615def
+    - name: cover_image_dragon_knight_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: -15
+        y: 0
+        width: 130
+        height: 64
+      spriteId: 434a8be980c37524d94ad8bdc0ccf594
+    - name: cover_image_dragon_knight_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: -15
+        y: 0
+        width: 130
+        height: 64
+      spriteId: 8ff60754398073c4a9422789bb045ac8
+    - name: cover_image_dragon_knight_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: -15
+        y: 0
+        width: 130
+        height: 64
+      spriteId: b46fda5ee9a0b1e4989012b70ee6f783
+    - name: cover_image_dragon_knight_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: -15
+        y: 0
+        width: 130
+        height: 64
+      spriteId: d78bee40463e25f40bc220f35e45e6be
+    - name: cover_image_dragon_knight_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: -15
+        y: 0
+        width: 130
+        height: 64
+      spriteId: 445c72945d414884baa339437325295c
+    - name: cover_image_dragon_knight_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: -15
+        y: 0
+        width: 130
+        height: 64
+      spriteId: 333287648bed13449addf24c58ab1ddf
+    - name: cover_image_dragon_knight_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: -15
+        y: 0
+        width: 130
+        height: 64
+      spriteId: bd2c72f48356ce848a6420d28e5a0444
+    - name: cover_image_dragon_knight_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: -15
+        y: 0
+        width: 130
+        height: 64
+      spriteId: 2b8beb881efbd344c8f0f543b82ab279
+    - name: cover_image_dragon_knight_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: -15
+        y: 0
+        width: 130
+        height: 64
+      spriteId: 8d95390b361bcce4bba4b876d88e4417
+    - name: cover_image_dragon_knight_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: -15
+        y: 0
+        width: 130
+        height: 64
+      spriteId: 44dc911719cea59488e168d196dbbe72
+    - name: cover_image_dragon_knight_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: -15
+        y: 0
+        width: 130
+        height: 64
+      spriteId: 7f440e1f3a2aa624f9687d36f7b38954
+    - name: cover_image_dragon_knight_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: -15
+        y: 0
+        width: 130
+        height: 64
+      spriteId: b00df453f17b6844696e34704832a254
+    - name: cover_image_dragon_knight_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: -15
+        y: 0
+        width: 130
+        height: 64
+      spriteId: 86cbbea0bc54f724ca4f8ff7342becfb
+    - name: cover_image_dragon_knight_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: -15
+        y: 0
+        width: 130
+        height: 64
+      spriteId: 0e9d3977f88b6c04e9511f86fe521012
+    - name: cover_image_dragon_knight_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: -15
+        y: 0
+        width: 130
+        height: 64
+      spriteId: 9b685acea8fe11346abdb14c326a33e0
+    - name: cover_image_dragon_knight_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: -15
+        y: 0
+        width: 130
+        height: 64
+      spriteId: 04d94ac8d0c00134b9df2c42c31f4778
+    - name: cover_image_dragon_knight_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: -15
+        y: 0
+        width: 130
+        height: 64
+      spriteId: e8b5ef942236c354180093f276cb7f03
+    - name: cover_image_dragon_knight_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: -15
+        y: 0
+        width: 130
+        height: 64
+      spriteId: 4d2752fc2c8be6648bb299b1f551387f
+    - name: cover_image_dragon_knight_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: -15
+        y: 0
+        width: 130
+        height: 64
+      spriteId: 86515c6f13aca4c48a36e43d75e6e43a
+    - name: cover_image_dragon_knight_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: -15
+        y: 0
+        width: 130
+        height: 64
+      spriteId: 701082a2da8919d4783009636c13bfc6
+    - name: cover_image_dragon_knight_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: -15
+        y: 0
+        width: 130
+        height: 64
+      spriteId: ab6b40de8b4ebab499998c30cb486656
+    - name: cover_image_dragon_knight_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: -15
+        y: 0
+        width: 130
+        height: 64
+      spriteId: 0ab8a4e718621894eb81c4cc46b162a6
+    - name: cover_image_dragon_knight_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: -15
+        y: 0
+        width: 130
+        height: 64
+      spriteId: 341069075ddd0f84c893de56c3fef652
+    - name: cover_image_dragon_knight_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: -15
+        y: 0
+        width: 130
+        height: 64
+      spriteId: 4267c8fe256143e46972dbf4b17b13d9
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 115, y: 64}

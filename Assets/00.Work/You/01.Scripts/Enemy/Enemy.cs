@@ -5,8 +5,6 @@ using UnityEngine;
 
 public abstract class Enemy : Entity
 {
-
-    
     [Header("셋팅값들")]
     public float moveSpeed;
     public float idleTime;
@@ -34,7 +32,7 @@ public abstract class Enemy : Entity
         _defaultMoveSpeed = moveSpeed;
         
         //레벨에 따른 난이도 증가        
-        ApplyLevelModifier();
+        //ApplyLevelModifier();
     }
 
     private void ApplyLevelModifier()
@@ -56,7 +54,6 @@ public abstract class Enemy : Entity
     protected override void Update()
     {
         base.Update();
-        
     }
 
     public virtual void AssignLastAnimHash(int hashCode)
@@ -69,7 +66,7 @@ public abstract class Enemy : Entity
         return _lastAnimationBoolHash;
     }
     
-    //전방 50에 플레이어가 있는지 검사.
+    
     public virtual RaycastHit2D IsPlayerDetected()
         => Physics2D.Raycast(_wallCheck.position, Vector2.right * FacingDirection, runAwayDistance, _whatIsPlayer);
 
@@ -80,6 +77,7 @@ public abstract class Enemy : Entity
 
     public abstract void AnimationFinishTrigger();
 
+    #region freeze
     //만약 타임 프리징에 걸렸다면.
     public virtual void FreezeTime(bool isFreeze, bool isFrozenWithoutTimer = false)
     {
@@ -129,7 +127,8 @@ public abstract class Enemy : Entity
         base.ReturnDefaultSpeed();
         moveSpeed = _defaultMoveSpeed;
     }
-    
+    #endregion
+
     #region counter attack region
     public virtual void OpenCounterAttackWindow()
     {
