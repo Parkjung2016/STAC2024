@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/00.Work/Baek/10_UIToolkit/Styels/OptionTemplate.uss?fileID=7433441132597879392&amp;guid=d68c1205bbcfa294e9be8eebe04e2993&amp;type=3#OptionTemplate" />
+    <ui:VisualElement name="screen_contain-box" class="screen_contain-box">
+        <ui:VisualElement name="option_contain-box" class="option_contain-box">
+            <ui:VisualElement name="option_outline_contain-box" style="flex-grow: 1;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

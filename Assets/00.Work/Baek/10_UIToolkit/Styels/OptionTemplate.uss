@@ -1,0 +1,12 @@
+.option_contain-box {
+    background-image: url('project://database/Assets/00.Work/Baek/02_Sprites/Free%20Paper%20UI%20System%20v1.0/Free%20Paper%20UI%20System/1%20Sprites/Paper%20UI%20Pack/Paper%20UI/Plain/10%20Calander/1.png?fileID=21300000&guid=b9fde2e5e9bdc9049afbafbb344fc76c&type=3#1');
+    width: 80%;
+    height: 100%;
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.screen_contain-box {
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+}
