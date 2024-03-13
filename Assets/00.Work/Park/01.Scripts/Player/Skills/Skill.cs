@@ -1,21 +1,20 @@
-
 using System;
 using UnityEngine;
 
 public class Skill : MonoBehaviour
 {
     public bool skillEnalbed = false;
-    
+
     [SerializeField] protected float _cooldown;
     protected float _cooldownTimer;
     protected Player _player;
 
-    [SerializeField] protected PlayerSkill _skillType; 
-    
+    [SerializeField] protected PlayerSkill _skillType;
+
     [HideInInspector] public LayerMask whatIsEnemy;
 
     public event Action<float, float> OnCoolDown;
-    
+
     protected virtual void Start()
     {
         _player = GameManager.Instance.Player;
@@ -32,7 +31,7 @@ public class Skill : MonoBehaviour
             {
                 _cooldownTimer = 0;
             }
-            
+
             OnCoolDown?.Invoke(_cooldownTimer, _cooldown);
         }
     }
@@ -45,6 +44,7 @@ public class Skill : MonoBehaviour
             UseSkill(); //스킬을 사용하고
             return true;
         }
+
         Debug.Log("Skill cooldown or locked");
         return false;
     }
@@ -78,5 +78,10 @@ public class Skill : MonoBehaviour
         }
 
         return closestEnemy;
+    }
+
+    public virtual PlayerSkill GetFuseSkill(PlayerSkill skill)
+    {
+        return PlayerSkill.Dash;
     }
 }

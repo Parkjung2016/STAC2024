@@ -6,12 +6,16 @@ using UnityEngine;
 public enum PlayerSkill
 {
     Dash = 1,
+    EnemyAttract,
+    Encroachment,
 }
 
 public class SkillManager : MonoSingleton<SkillManager>
 {
     private Dictionary<Type, Skill> _skills;
     private Dictionary<PlayerSkill, Type> _skillTypeDictionary;
+
+    public Skill PreParedSkill { get; set; }
 
     private void Awake()
     {
@@ -52,5 +56,23 @@ public class SkillManager : MonoSingleton<SkillManager>
 
     public void UseSkillFeedback(PlayerSkill skillType)
     {
+    }
+
+    public void PrepareSkill(PlayerSkill skill)
+    {
+        if (PreParedSkill != null)
+        {
+            FuseSkill(skill);
+        }
+        else
+        {
+            PreParedSkill = GetSkill(skill);
+        }
+    }
+
+    public Skill FuseSkill(PlayerSkill skill)
+    {
+        PlayerSkill fusedSkill = PreParedSkill.GetFuseSkill(skill);
+        return GetSkill(fusedSkill);
     }
 }

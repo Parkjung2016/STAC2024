@@ -5,53 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ff5c593-e2bb-4905-8b1d-75d16f9cbe78" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/Core/Quest/QuestManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/Core/Quest/QuestManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/Core/Quest/Quests/Quest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/Core/Quest/Quests/Quest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/NPC/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/NPC/Editor/NPCDataSOEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/NPC/Editor/NPCDataSOEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/NPC/NPC.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/NPC/NPC.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.STAC2024/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.STAC2024/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/Player/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/Player/States/PlayerPrimaryAttackState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/Player/States/PlayerPrimaryAttackState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/Player/Skills/Skill.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/Player/Skills/Skill.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/Player/Skills/SkillManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/Player/Skills/SkillManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/Player/States/PlayerGroundedState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/Player/States/PlayerGroundedState.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/00.Work/Park/02.Scene/Test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00.Work/Park/02.Scene/Test.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02Animations/Clips/CheckPoint.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02Animations/Clips/CheckPoint/idle.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02Animations/Clips/CheckPoint/idle.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02Animations/Clips/CheckPoint/lit_fire.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02Animations/Clips/CheckPoint/lit_fire.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02Animations/Clips/Coin.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02Animations/Clips/Coin/idle.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02Animations/Clips/Coin/idle.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02Animations/Clips/Sword.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02Animations/Clips/Sword/sword_flip.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02Animations/Clips/Sword/sword_flip.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02Animations/Clips/Sword/sword_idle.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02Animations/Clips/Sword/sword_idle.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02Animations/Clips/ThunderStrike.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02Animations/Clips/ThunderStrike/thunder_strike_hit.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02Animations/Clips/ThunderStrike/thunder_strike_hit.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02Animations/Clips/ThunderStrike/thunder_strike_idle.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02Animations/Clips/ThunderStrike/thunder_strike_idle.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02Animations/Clips/crystal.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02Animations/Clips/crystal/crystal_explode.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02Animations/Clips/crystal/crystal_explode.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02Animations/Clips/crystal/crystal_idle.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02Animations/Clips/crystal/crystal_idle.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02Animations/Clips/player_aim_sword.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02Animations/Clips/player_aim_sword.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02Animations/Clips/player_catch_sword.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02Animations/Clips/player_catch_sword.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02Animations/Clips/player_counter_attack.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02Animations/Clips/player_counter_attack.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02Animations/Clips/player_dead.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02Animations/Clips/player_dead.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02Animations/Clips/player_success_counter_attack.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02Animations/Clips/player_success_counter_attack.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02Animations/Clips/player_throw_sword.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02Animations/Clips/player_throw_sword.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02Animations/Clips/player_wall_slide.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02Animations/Clips/player_wall_slide.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02Animations/Controllers/PlayerController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02Animations/Controllers/PlayerController.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/00.Work/You/02_Animator/Devil_Attack.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00.Work/You/02_Animator/Devil_Attack.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/00.Work/You/02_Animator/Devil_Breathe.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00.Work/You/02_Animator/Devil_Breathe.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/00.Work/You/03.Prefabs/Enemy_Devil.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00.Work/You/03.Prefabs/Enemy_Devil.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Scripts/Entity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scripts/Entity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Scripts/Stats/PlayerStat.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scripts/Stats/PlayerStat.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/CharacterStat/SkelectonStat.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/CharacterStat/SkelectonStat.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/99.Work/Lee/Asset/VFX Free Pack/Effect_BigHit/Effect_BigHit_1_516x528.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/99.Work/Lee/Asset/VFX Free Pack/Effect_BigHit/Effect_BigHit_1_516x528.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/99.Work/Lee/Asset/VFX Free Pack/Effect_Charged/Effect_Charged_1_357x295.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/99.Work/Lee/Asset/VFX Free Pack/Effect_Charged/Effect_Charged_1_357x295.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/99.Work/Lee/Asset/VFX Free Pack/Effect_Explosion/Effect_Explosion_1_517x517.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/99.Work/Lee/Asset/VFX Free Pack/Effect_Explosion/Effect_Explosion_1_517x517.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/99.Work/Lee/Asset/VFX Free Pack/Effect_FastPixelFire/Effect_FastPixelFire_1_173x197.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/99.Work/Lee/Asset/VFX Free Pack/Effect_FastPixelFire/Effect_FastPixelFire_1_173x197.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/InputSettings/Controls.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/InputSettings/Controls.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/InputSettings/Controls.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/InputSettings/Controls.inputactions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/InputSettings/InputReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/InputSettings/InputReader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +58,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;PJH&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -148,6 +123,8 @@
       <updated>1710156307644</updated>
       <workItem from="1710156310769" duration="13604000" />
       <workItem from="1710234513412" duration="3513000" />
+      <workItem from="1710332185588" duration="953000" />
+      <workItem from="1710337357895" duration="5555000" />
     </task>
     <servers />
   </component>

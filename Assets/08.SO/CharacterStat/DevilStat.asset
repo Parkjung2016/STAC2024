@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 018d4957b0cf4693bc5367cf84f84a09, type: 3}
-  m_Name: SkelectonStat
+  m_Name: DevilStat
   m_EditorClassIdentifier: 
   strength:
     _baseValue: 0

@@ -12,8 +12,6 @@ public abstract class Entity : MonoBehaviour
     [SerializeField] protected LayerMask _whatIsGround;
     [SerializeField] protected Transform _wallCheck;
     [SerializeField] protected float _wallCheckDistance;
-    [SerializeField] protected float _interactCheckDistance;
-    [SerializeField] protected LayerMask _whatIsInteract;
 
     [Header("Knockback info")]
     [SerializeField] protected float _knockbackDuration;
@@ -49,30 +47,30 @@ public abstract class Entity : MonoBehaviour
         AnimatorCompo = visualTrm.GetComponent<Animator>();
         RigidbodyCompo = GetComponent<Rigidbody2D>();
         HealthCompo = GetComponent<Health>();
-        //DamageCasterCompo = transform.Find("DamageCaster").GetComponent<DamageCaster>();
+        DamageCasterCompo = transform.Find("DamageCaster").GetComponent<DamageCaster>();
         SpriteRendererCompo = visualTrm.GetComponent<SpriteRenderer>();
         Collider = GetComponent<CapsuleCollider2D>();
         
-        //DamageCasterCompo.SetOwner(this, castByCloneSkill:false); //자신의 스탯상 데미지를 넣어줌.
-        //HealthCompo.SetOwner(this);
+        DamageCasterCompo.SetOwner(this, castByCloneSkill:false); //자신의 스탯상 데미지를 넣어줌.
+        HealthCompo.SetOwner(this);
         
-        //HealthCompo.OnKnockBack += HandleKnockback;
-        //HealthCompo.OnHit += HandleHit;
-        //HealthCompo.OnDeathEvent.AddListener(HandleDie);
-        //HealthCompo.OnAilmentChanged.AddListener(HandleAilmentChanged);
-        //OnHealthBarChanged?.Invoke(HealthCompo.GetNormalizedHealth()); //최대치로 UI변경.
+        HealthCompo.OnKnockBack += HandleKnockback;
+        HealthCompo.OnHit += HandleHit;
+        HealthCompo.OnDeathEvent.AddListener(HandleDie);
+        HealthCompo.OnAilmentChanged.AddListener(HandleAilmentChanged);
+        OnHealthBarChanged?.Invoke(HealthCompo.GetNormalizedHealth()); //최대치로 UI변경.
         
-        //_characterStat = Instantiate(_characterStat); //복제본으로 탑재.
-        //_characterStat.SetOwner(this); //자기를 오너로 설정
+        _characterStat = Instantiate(_characterStat); //복제본으로 탑재.
+        _characterStat.SetOwner(this); //자기를 오너로 설정
     }
 
-    //private void OnDestroy()
-    //{
-    //    HealthCompo.OnKnockBack -= HandleKnockback;
-    //    HealthCompo.OnHit -= HandleHit;
-    //    HealthCompo.OnDeathEvent.RemoveListener(HandleDie);
-    //    HealthCompo.OnAilmentChanged.RemoveListener( HandleAilmentChanged);
-    //}
+    private void OnDestroy()
+    {
+        HealthCompo.OnKnockBack -= HandleKnockback;
+        HealthCompo.OnHit -= HandleHit;
+        HealthCompo.OnDeathEvent.RemoveListener(HandleDie);
+        HealthCompo.OnAilmentChanged.RemoveListener( HandleAilmentChanged);
+    }
 
     //동결에 따른 처리.
     private void HandleAilmentChanged(Ailment ailment)
