@@ -37,7 +37,7 @@ public class Projectile : MonoBehaviour
             Cross) > 0)
         {
             _projectileDir = -1;
-        }
+        } 
         else
         {
             _projectileDir = 1;
