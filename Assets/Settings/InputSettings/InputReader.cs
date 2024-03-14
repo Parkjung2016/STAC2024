@@ -9,7 +9,7 @@ public class InputReader : ScriptableObject, Controls.IPlayerActions, Controls.I
     public event Action JumpEvent;
     public event Action DashEvent;
     public event Action FireSkillEvent;
-    public event Action Skill3Event;
+    public event Action Skill1Event, Skill2Event, Skill3Event;
     public event Action InteractionEvent;
     public Vector2 AimPosition { get; private set; }
     public float xInput { get; private set; }
@@ -66,9 +66,25 @@ public class InputReader : ScriptableObject, Controls.IPlayerActions, Controls.I
         }
     }
 
+    public void OnSkill1(InputAction.CallbackContext context)
+    {
+        if (context.started)
+        {
+            Skill1Event?.Invoke();
+        }
+    }
+
+    public void OnSkill2(InputAction.CallbackContext context)
+    {
+        if (context.started)
+        {
+            Skill2Event?.Invoke();
+        }
+    }
+
     public void OnSkill3(InputAction.CallbackContext context)
     {
-        if (context.performed)
+        if (context.started)
         {
             Skill3Event?.Invoke();
         }

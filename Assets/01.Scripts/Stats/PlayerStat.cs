@@ -24,7 +24,7 @@ public class PlayerStat : CharacterStat
             }
         }
     }
-
+    
     public Stat GetStatByType(StatType statType)
     {
         return _filedInfoDictionary[statType].GetValue(this) as Stat;

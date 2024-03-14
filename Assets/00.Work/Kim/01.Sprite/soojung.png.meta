@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8153db2862e5b314c9f20867d8d939e4
+guid: b4dbc7fa3ee310b449083f71ae617846
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,12 +34,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 0
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 12
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -119,30 +119,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_0
+      name: soojung_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 3102
-        width: 517
-        height: 517
+        y: 448
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0118951212ec0c43a84dec9b55c2723
-      internalID: 934699639
+      spriteID: 263e0d7c5fe04cb4aa1aabf6fb4d33fd
+      internalID: 1571464170
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_1
+      name: soojung_1
       rect:
         serializedVersion: 2
-        x: 517
-        y: 3102
-        width: 517
-        height: 517
+        x: 64
+        y: 448
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96545a0319a1beb40baa18752090e183
-      internalID: -1914713354
+      spriteID: aa07cdf1123d7784f84d1df2631b3c45
+      internalID: 763404990
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_2
+      name: soojung_2
       rect:
         serializedVersion: 2
-        x: 1034
-        y: 3102
-        width: 517
-        height: 517
+        x: 128
+        y: 448
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03d17eb4138da124bb8fd6f300d55066
-      internalID: 314730750
+      spriteID: ccc2ab027dd0bde4aaa8a8ca784fba53
+      internalID: -584128538
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_3
+      name: soojung_3
       rect:
         serializedVersion: 2
-        x: 1551
-        y: 3102
-        width: 517
-        height: 517
+        x: 192
+        y: 448
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba249a200db016447b2306c35da316e5
-      internalID: 33302049
+      spriteID: fc5ebfd2434e99640933fb3bbc98041c
+      internalID: 1286842964
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_4
+      name: soojung_4
       rect:
         serializedVersion: 2
-        x: 2068
-        y: 3102
-        width: 517
-        height: 517
+        x: 256
+        y: 448
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,20 +221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 835c5d4da488d6e42aed0c8134fda505
-      internalID: -1474135445
+      spriteID: ac048d6a0db256141bd3b6bf694cea3f
+      internalID: 1546490889
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_5
+      name: soojung_5
       rect:
         serializedVersion: 2
-        x: 2585
-        y: 3102
-        width: 517
-        height: 517
+        x: 320
+        y: 448
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -255,20 +242,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2138467fb809e9e4b909cc8b12a22aba
-      internalID: 1387603807
+      spriteID: abf84b763fdf27f4fa8ca73533e7d6b2
+      internalID: 1776072457
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_6
+      name: soojung_6
       rect:
         serializedVersion: 2
-        x: 3102
-        y: 3102
-        width: 517
-        height: 517
+        x: 384
+        y: 448
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -276,20 +263,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac6de62413c119849b2b7e93c5baacf2
-      internalID: -764058806
+      spriteID: 64be7cfdb2b789c45816a54eccf38e19
+      internalID: 692731608
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_7
+      name: soojung_7
       rect:
         serializedVersion: 2
-        x: 3619
-        y: 3102
-        width: 517
-        height: 517
+        x: 448
+        y: 448
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -297,41 +284,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b829d67aa2c51874c875401bb69c6b0d
-      internalID: 187483490
+      spriteID: 2ddd32f3e28933b43aa426f23a1e733d
+      internalID: -1100615160
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_8
-      rect:
-        serializedVersion: 2
-        x: 4136
-        y: 3102
-        width: 517
-        height: 517
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 18317f9c873723d4b89cdbd6b00abdbf
-      internalID: 1502239673
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_9
+      name: soojung_8
       rect:
         serializedVersion: 2
         x: 0
-        y: 2585
-        width: 517
-        height: 517
+        y: 384
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -339,20 +305,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88aea41a5a69d8c4ea42e39bafb9bfea
-      internalID: 1357602401
+      spriteID: 2477d6c33479a7547af91453afdabd5f
+      internalID: -457389312
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_10
+      name: soojung_9
       rect:
         serializedVersion: 2
-        x: 517
-        y: 2585
-        width: 517
-        height: 517
+        x: 64
+        y: 384
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -360,20 +326,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c912766a7f65c14ebd23067bd9b96bd
-      internalID: -2095168214
+      spriteID: 72db7b48dddd9e449a940e92d4ac4f40
+      internalID: 1374002902
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_11
+      name: soojung_10
       rect:
         serializedVersion: 2
-        x: 1034
-        y: 2585
-        width: 517
-        height: 517
+        x: 128
+        y: 384
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -381,20 +347,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71b9e90e33e2ed243979a473e66f48e2
-      internalID: 1842037953
+      spriteID: 92dc2ddba454f9d41a7f6bbc26edbded
+      internalID: -892002392
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_12
+      name: soojung_11
       rect:
         serializedVersion: 2
-        x: 1551
-        y: 2585
-        width: 517
-        height: 517
+        x: 192
+        y: 384
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -402,20 +368,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b96624d8cabd134d91738cfd027c5ac
-      internalID: -1868831927
+      spriteID: aec1790be0246f842bb70f30f96d870f
+      internalID: -1524257687
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_13
+      name: soojung_12
       rect:
         serializedVersion: 2
-        x: 2068
-        y: 2585
-        width: 517
-        height: 517
+        x: 256
+        y: 384
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -423,20 +389,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91ca2a6c2959c164595e4096782ee5b3
-      internalID: -722287135
+      spriteID: 3d4caa7cc4f9bb844a4dd1bda5e00816
+      internalID: -1354417787
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_14
+      name: soojung_13
       rect:
         serializedVersion: 2
-        x: 2585
-        y: 2585
-        width: 517
-        height: 517
+        x: 320
+        y: 384
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -444,20 +410,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62b1cd255b6acbe41af9cf52947c36c3
-      internalID: 1718730479
+      spriteID: 19668ab7834c74448a47dc5d5fe38b1d
+      internalID: 1679282048
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_15
+      name: soojung_14
       rect:
         serializedVersion: 2
-        x: 3102
-        y: 2585
-        width: 517
-        height: 517
+        x: 384
+        y: 384
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -465,20 +431,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c5fc4f098db27c45901fc8ae38469e0
-      internalID: 2141225497
+      spriteID: 6f485d7c875cc6040bec35a84a1c6c51
+      internalID: -329346750
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_16
+      name: soojung_15
       rect:
         serializedVersion: 2
-        x: 3619
-        y: 2585
-        width: 517
-        height: 517
+        x: 448
+        y: 384
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -486,41 +452,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c1d8d8e61fccec4e8569c5a7a66a56b
-      internalID: -652935377
+      spriteID: e53c771b5ef68614299736c40eaf4e82
+      internalID: -1344374607
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_17
-      rect:
-        serializedVersion: 2
-        x: 4136
-        y: 2585
-        width: 517
-        height: 517
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2a90a1dfdc2661047b543f704f813fb1
-      internalID: -670644360
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_18
+      name: soojung_16
       rect:
         serializedVersion: 2
         x: 0
-        y: 2068
-        width: 517
-        height: 517
+        y: 320
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -528,20 +473,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c8d3c1707daf744eadbaba51935482b
-      internalID: -937745991
+      spriteID: 64df8fcfa0a24514599f3d4755801ab2
+      internalID: -1036134024
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_19
+      name: soojung_17
       rect:
         serializedVersion: 2
-        x: 517
-        y: 2068
-        width: 517
-        height: 517
+        x: 64
+        y: 320
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -549,20 +494,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0dfdf3fe4e2c17741be32621c7ffff66
-      internalID: 629595309
+      spriteID: 9ed69a86729e4824899ddf7bff641dde
+      internalID: -1289479211
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_20
+      name: soojung_18
       rect:
         serializedVersion: 2
-        x: 1034
-        y: 2068
-        width: 517
-        height: 517
+        x: 128
+        y: 320
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -570,20 +515,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98e6360b4a63e7b4a9db52a6ce6c2cd0
-      internalID: -2085815113
+      spriteID: c7886d23a1c25cb4eb41411b843bc80a
+      internalID: 1285855016
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_21
+      name: soojung_19
       rect:
         serializedVersion: 2
-        x: 1551
-        y: 2068
-        width: 517
-        height: 517
+        x: 192
+        y: 320
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -591,20 +536,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56d4f2f8e9a7cc94f867c1e28a60d88a
-      internalID: 1203507620
+      spriteID: 3a4e177a213ba5a4ea38db953ebb9b14
+      internalID: 1667747472
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_22
+      name: soojung_20
       rect:
         serializedVersion: 2
-        x: 2068
-        y: 2068
-        width: 517
-        height: 517
+        x: 256
+        y: 320
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -612,20 +557,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f76943603643dc943a916712c482bbc7
-      internalID: -1919785829
+      spriteID: a6d9340bca63ee84b8c6fbcaa82359d5
+      internalID: 739184851
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_23
+      name: soojung_21
       rect:
         serializedVersion: 2
-        x: 2585
-        y: 2068
-        width: 517
-        height: 517
+        x: 320
+        y: 320
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -633,20 +578,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9851a2877bd7aee41ab22b0d882002dc
-      internalID: -1932508361
+      spriteID: 7e7f703f9f85de34b940a686db258ac1
+      internalID: 1453176688
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_24
+      name: soojung_22
       rect:
         serializedVersion: 2
-        x: 3102
-        y: 2068
-        width: 517
-        height: 517
+        x: 384
+        y: 320
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -654,20 +599,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 085043899b97dda479f9531ddeae5a0c
-      internalID: -673132889
+      spriteID: 6323c5043e34dc04b870deac19a6e4fa
+      internalID: -1299473509
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_25
+      name: soojung_23
       rect:
         serializedVersion: 2
-        x: 3619
-        y: 2068
-        width: 517
-        height: 517
+        x: 448
+        y: 320
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -675,20 +620,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5bff5cca7c872e64dbd3c2dabe090ad7
-      internalID: 1646380812
+      spriteID: 476bb9133e5e0694d9eb995c054ea49c
+      internalID: -1616856866
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_26
+      name: soojung_24
       rect:
         serializedVersion: 2
-        x: 4136
-        y: 2068
-        width: 517
-        height: 517
+        x: 512
+        y: 320
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -696,20 +641,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb32f490587e93440bc87a8113316047
-      internalID: -162826581
+      spriteID: 21944b4220fc0c744a93bbaa7c1d70d3
+      internalID: -1467883589
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_27
+      name: soojung_25
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1551
-        width: 517
-        height: 517
+        x: 576
+        y: 320
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -717,20 +662,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f450ba4efcf1b4a4ead25eb2f60928b4
-      internalID: -594914139
+      spriteID: 6f9af0b9f7a18334597101c6cf4781ae
+      internalID: -708935740
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_28
+      name: soojung_26
       rect:
         serializedVersion: 2
-        x: 517
-        y: 1551
-        width: 517
-        height: 517
+        x: 640
+        y: 320
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -738,20 +683,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23d6794f46bc1414eb00dccde45c03b4
-      internalID: 161686470
+      spriteID: 054a32d63d6d8e44d8a8f6f43338d15d
+      internalID: 1956080593
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_29
+      name: soojung_27
       rect:
         serializedVersion: 2
-        x: 1034
-        y: 1551
-        width: 517
-        height: 517
+        x: 704
+        y: 320
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -759,20 +704,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 658e6f1dae61d63418c0cc621511eadd
-      internalID: 534372528
+      spriteID: a4a54130713f6804aaed03f4c2895b04
+      internalID: -199586797
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_30
+      name: soojung_28
       rect:
         serializedVersion: 2
-        x: 1551
-        y: 1551
-        width: 517
-        height: 517
+        x: 768
+        y: 320
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -780,20 +725,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2faedc2cb8e744b42a397564f3fac49f
-      internalID: -1586492260
+      spriteID: 0f0d3f72cdf7177459546f79899f5078
+      internalID: -1503490483
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_31
+      name: soojung_29
       rect:
         serializedVersion: 2
-        x: 2068
-        y: 1551
-        width: 517
-        height: 517
+        x: 832
+        y: 320
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -801,104 +746,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 652f0a64a12561340975ca89657de21e
-      internalID: -1913076286
+      spriteID: 6cabcd53cc61c6f4dbc86a67ba7a8163
+      internalID: -1283160816
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_32
-      rect:
-        serializedVersion: 2
-        x: 2585
-        y: 1551
-        width: 517
-        height: 517
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0225bee96095cac4abafed71c416ae89
-      internalID: -1103866744
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_33
-      rect:
-        serializedVersion: 2
-        x: 3102
-        y: 1551
-        width: 517
-        height: 517
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b2f9e8d968e1acc488ab1995f055d28c
-      internalID: 419562998
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_34
-      rect:
-        serializedVersion: 2
-        x: 3619
-        y: 1551
-        width: 517
-        height: 517
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f1d127be3f6899e459e86d55216dd2e7
-      internalID: -657048093
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_35
-      rect:
-        serializedVersion: 2
-        x: 4136
-        y: 1551
-        width: 517
-        height: 517
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: acb7f6fa03e98a44293b2154302f3b48
-      internalID: -2000657541
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_36
+      name: soojung_30
       rect:
         serializedVersion: 2
         x: 0
-        y: 1034
-        width: 517
-        height: 517
+        y: 256
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -906,20 +767,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee2df027723d86849b0f76488a477e55
-      internalID: -623778596
+      spriteID: 9c48a0483f4496f4ebeb5dbd24bb40ef
+      internalID: 1706245170
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_37
+      name: soojung_31
       rect:
         serializedVersion: 2
-        x: 517
-        y: 1034
-        width: 517
-        height: 517
+        x: 64
+        y: 256
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -927,20 +788,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ed1e645a65aee0478b0316f7c10f38f
-      internalID: -690487915
+      spriteID: 5e1624041d2e4604f95c2480887deb14
+      internalID: -404006421
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_38
+      name: soojung_32
       rect:
         serializedVersion: 2
-        x: 1034
-        y: 1034
-        width: 517
-        height: 517
+        x: 128
+        y: 256
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -948,146 +809,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 038f5f3d27d88bd4a8b6aac7884fe588
-      internalID: -535184168
+      spriteID: a29955eba5dde2e4bb2710d75ce81a85
+      internalID: -728259326
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_39
-      rect:
-        serializedVersion: 2
-        x: 1551
-        y: 1034
-        width: 517
-        height: 517
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b077f5eca822fef4ba353208ffc34396
-      internalID: -1681794787
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_40
-      rect:
-        serializedVersion: 2
-        x: 2068
-        y: 1034
-        width: 517
-        height: 517
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 18313fe6da968544eb1164f4067198f3
-      internalID: -563280026
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_41
-      rect:
-        serializedVersion: 2
-        x: 2585
-        y: 1034
-        width: 517
-        height: 517
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e8660d8883e0d4b4e91187b0f5d5bcbc
-      internalID: -630461609
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_42
-      rect:
-        serializedVersion: 2
-        x: 3102
-        y: 1034
-        width: 517
-        height: 517
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9bb8579573214244093e5977c084a4a0
-      internalID: 1872883966
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_43
-      rect:
-        serializedVersion: 2
-        x: 3619
-        y: 1034
-        width: 517
-        height: 517
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 46a408fad6c22c9468e80687b541ef20
-      internalID: -2081611748
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_44
-      rect:
-        serializedVersion: 2
-        x: 4136
-        y: 1034
-        width: 517
-        height: 517
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7b820bdf09e390441b72e67e78556723
-      internalID: -2044858543
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_45
+      name: soojung_33
       rect:
         serializedVersion: 2
         x: 0
-        y: 517
-        width: 517
-        height: 517
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1095,20 +830,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13f6be4de3af54c49868b5679dcc53b7
-      internalID: 57203151
+      spriteID: 1595c79ee34328d449b81d8d60f25a72
+      internalID: 65917617
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_46
+      name: soojung_34
       rect:
         serializedVersion: 2
-        x: 517
-        y: 517
-        width: 517
-        height: 517
+        x: 64
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1116,20 +851,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54c0bf72e2ff1f147890d1cec2141265
-      internalID: 1373286712
+      spriteID: bc1efbaf82ecc124f9fbf84cee28e8ba
+      internalID: -1182945094
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_47
+      name: soojung_35
       rect:
         serializedVersion: 2
-        x: 1034
-        y: 517
-        width: 517
-        height: 517
+        x: 128
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1137,20 +872,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5112d66fec390dc499bda03b15fe0270
-      internalID: 501922835
+      spriteID: 96c5864af46868047bb2c090c244d353
+      internalID: 141193613
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_48
+      name: soojung_36
       rect:
         serializedVersion: 2
-        x: 1551
-        y: 517
-        width: 517
-        height: 517
+        x: 192
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1158,20 +893,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0aa1b7c7832c7464a8fec12bd57d2139
-      internalID: -1684842153
+      spriteID: cec56787bd1f9d14e8ec53daddb55681
+      internalID: 235791916
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_49
+      name: soojung_37
       rect:
         serializedVersion: 2
-        x: 2068
-        y: 517
-        width: 517
-        height: 517
+        x: 0
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1179,20 +914,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a683865ad42c204ebbb300f6caabe9e
-      internalID: -653116963
+      spriteID: 80fab000807901540a1a288c1c879a1e
+      internalID: -1171950463
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_50
+      name: soojung_38
       rect:
         serializedVersion: 2
-        x: 2585
-        y: 517
-        width: 517
-        height: 517
+        x: 64
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1200,20 +935,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5313e1a1c9fcd204e9799f800f21cc65
-      internalID: -195150181
+      spriteID: c507ab43672a8554f98f3974f19c51a9
+      internalID: -1560403530
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_51
+      name: soojung_39
       rect:
         serializedVersion: 2
-        x: 3102
-        y: 517
-        width: 517
-        height: 517
+        x: 128
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1221,20 +956,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae7dc2f61cb618c41a4762231ac64930
-      internalID: -504856561
+      spriteID: 22f4c7bd135eb6c46bd51bffad76e227
+      internalID: 1955161023
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_52
+      name: soojung_40
       rect:
         serializedVersion: 2
-        x: 3619
-        y: 517
-        width: 517
-        height: 517
+        x: 192
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1242,20 +977,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8afaeff053a2b14b986a27824242f87
-      internalID: 517651801
+      spriteID: 1abf97f6bfb3bda4ea8124bef7861143
+      internalID: 634155087
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_53
+      name: soojung_41
       rect:
         serializedVersion: 2
-        x: 4136
-        y: 517
-        width: 517
-        height: 517
+        x: 0
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1263,20 +998,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c83809db6f6bb364da0a1fca45b00668
-      internalID: 1302850007
+      spriteID: 3a672104090666b44876c8effbc17b60
+      internalID: -1996012644
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_54
+      name: soojung_42
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6157c48c47dcbcf44883bec242cb7ce3
+      internalID: -1136381302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soojung_43
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 517
-        height: 517
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1284,20 +1040,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41ea74d64d77c4445a6588846a8b672b
-      internalID: -1690112873
+      spriteID: acf457c70623ec344bcfb7ca4221249c
+      internalID: 2117312914
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_55
+      name: soojung_44
       rect:
         serializedVersion: 2
-        x: 517
+        x: 64
         y: 0
-        width: 517
-        height: 517
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1305,20 +1061,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41cf21358fc2f61438cf429cc90df0a7
-      internalID: 1131406111
+      spriteID: 1c23da9575ddd1547a3eeabf27e88682
+      internalID: 711392387
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_56
+      name: soojung_45
       rect:
         serializedVersion: 2
-        x: 1034
+        x: 128
         y: 0
-        width: 517
-        height: 517
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1326,20 +1082,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ca90b2bc1120ec4ca49d90844f09736
-      internalID: 967010942
+      spriteID: 7a9ae1419862d8e49a8d5dc2efc5b593
+      internalID: -408922503
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_57
+      name: soojung_46
       rect:
         serializedVersion: 2
-        x: 1551
+        x: 192
         y: 0
-        width: 517
-        height: 517
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1347,20 +1103,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f99599a682515f41b77bd15de0fa281
-      internalID: -464201185
+      spriteID: ab43410038e52ea4aa85bec46c090467
+      internalID: 1593878125
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_58
+      name: soojung_47
       rect:
         serializedVersion: 2
-        x: 2068
+        x: 256
         y: 0
-        width: 517
-        height: 517
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1368,20 +1124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65262100b39fe9746bdbafa89b3d7856
-      internalID: -455320302
+      spriteID: a3774e1f57ab7264e9fb8974278d1969
+      internalID: -1248468493
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_59
+      name: soojung_48
       rect:
         serializedVersion: 2
-        x: 2585
+        x: 320
         y: 0
-        width: 517
-        height: 517
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1389,20 +1145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3da5eb67d175a874eb82687b4ed5b08b
-      internalID: -812312312
+      spriteID: 23ad2a2b1db84a140b19e6275e1ca4c4
+      internalID: 647433862
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_60
+      name: soojung_49
       rect:
         serializedVersion: 2
-        x: 3102
+        x: 384
         y: 0
-        width: 517
-        height: 517
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1410,20 +1166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1eab697a75dc55a48aa62cd6be584f19
-      internalID: -1835393287
+      spriteID: b25e88317ed063b4b808a23578f11c7d
+      internalID: 1013278912
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_61
+      name: soojung_50
       rect:
         serializedVersion: 2
-        x: 3619
+        x: 448
         y: 0
-        width: 517
-        height: 517
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1431,20 +1187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 574e599a7d94a42429084c097de4954c
-      internalID: 526048539
+      spriteID: 375c11fe76c0b1e4aa647436b169e442
+      internalID: -569129207
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Effect_Explosion_1_517x517_62
+      name: soojung_51
       rect:
         serializedVersion: 2
-        x: 4136
+        x: 512
         y: 0
-        width: 517
-        height: 517
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1452,8 +1208,113 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a23a84d2289bf674184d7f46cefb84ab
-      internalID: 1249646913
+      spriteID: f667cfa97c88bc04d9eac0d921bf7778
+      internalID: -592099865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soojung_52
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 325cbe3e1072ec549bfd13b80f860a2c
+      internalID: 1940763835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soojung_53
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985a337074e60f04c93b7b6ed406bfa3
+      internalID: 1912804691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soojung_54
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3508ed55f7fe9a4189698bc0ca2c078
+      internalID: 288042471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soojung_55
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92259e8b0aa361f42a08bc5bce2bba6a
+      internalID: 412019227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soojung_56
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3185f38510456c14b800a63cff5322dd
+      internalID: -58037874
       vertices: []
       indices: 
       edges: []
@@ -1469,69 +1330,63 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Effect_Explosion_1_517x517_0: 934699639
-      Effect_Explosion_1_517x517_1: -1914713354
-      Effect_Explosion_1_517x517_10: -2095168214
-      Effect_Explosion_1_517x517_11: 1842037953
-      Effect_Explosion_1_517x517_12: -1868831927
-      Effect_Explosion_1_517x517_13: -722287135
-      Effect_Explosion_1_517x517_14: 1718730479
-      Effect_Explosion_1_517x517_15: 2141225497
-      Effect_Explosion_1_517x517_16: -652935377
-      Effect_Explosion_1_517x517_17: -670644360
-      Effect_Explosion_1_517x517_18: -937745991
-      Effect_Explosion_1_517x517_19: 629595309
-      Effect_Explosion_1_517x517_2: 314730750
-      Effect_Explosion_1_517x517_20: -2085815113
-      Effect_Explosion_1_517x517_21: 1203507620
-      Effect_Explosion_1_517x517_22: -1919785829
-      Effect_Explosion_1_517x517_23: -1932508361
-      Effect_Explosion_1_517x517_24: -673132889
-      Effect_Explosion_1_517x517_25: 1646380812
-      Effect_Explosion_1_517x517_26: -162826581
-      Effect_Explosion_1_517x517_27: -594914139
-      Effect_Explosion_1_517x517_28: 161686470
-      Effect_Explosion_1_517x517_29: 534372528
-      Effect_Explosion_1_517x517_3: 33302049
-      Effect_Explosion_1_517x517_30: -1586492260
-      Effect_Explosion_1_517x517_31: -1913076286
-      Effect_Explosion_1_517x517_32: -1103866744
-      Effect_Explosion_1_517x517_33: 419562998
-      Effect_Explosion_1_517x517_34: -657048093
-      Effect_Explosion_1_517x517_35: -2000657541
-      Effect_Explosion_1_517x517_36: -623778596
-      Effect_Explosion_1_517x517_37: -690487915
-      Effect_Explosion_1_517x517_38: -535184168
-      Effect_Explosion_1_517x517_39: -1681794787
-      Effect_Explosion_1_517x517_4: -1474135445
-      Effect_Explosion_1_517x517_40: -563280026
-      Effect_Explosion_1_517x517_41: -630461609
-      Effect_Explosion_1_517x517_42: 1872883966
-      Effect_Explosion_1_517x517_43: -2081611748
-      Effect_Explosion_1_517x517_44: -2044858543
-      Effect_Explosion_1_517x517_45: 57203151
-      Effect_Explosion_1_517x517_46: 1373286712
-      Effect_Explosion_1_517x517_47: 501922835
-      Effect_Explosion_1_517x517_48: -1684842153
-      Effect_Explosion_1_517x517_49: -653116963
-      Effect_Explosion_1_517x517_5: 1387603807
-      Effect_Explosion_1_517x517_50: -195150181
-      Effect_Explosion_1_517x517_51: -504856561
-      Effect_Explosion_1_517x517_52: 517651801
-      Effect_Explosion_1_517x517_53: 1302850007
-      Effect_Explosion_1_517x517_54: -1690112873
-      Effect_Explosion_1_517x517_55: 1131406111
-      Effect_Explosion_1_517x517_56: 967010942
-      Effect_Explosion_1_517x517_57: -464201185
-      Effect_Explosion_1_517x517_58: -455320302
-      Effect_Explosion_1_517x517_59: -812312312
-      Effect_Explosion_1_517x517_6: -764058806
-      Effect_Explosion_1_517x517_60: -1835393287
-      Effect_Explosion_1_517x517_61: 526048539
-      Effect_Explosion_1_517x517_62: 1249646913
-      Effect_Explosion_1_517x517_7: 187483490
-      Effect_Explosion_1_517x517_8: 1502239673
-      Effect_Explosion_1_517x517_9: 1357602401
+      soojung_0: 1571464170
+      soojung_1: 763404990
+      soojung_10: -892002392
+      soojung_11: -1524257687
+      soojung_12: -1354417787
+      soojung_13: 1679282048
+      soojung_14: -329346750
+      soojung_15: -1344374607
+      soojung_16: -1036134024
+      soojung_17: -1289479211
+      soojung_18: 1285855016
+      soojung_19: 1667747472
+      soojung_2: -584128538
+      soojung_20: 739184851
+      soojung_21: 1453176688
+      soojung_22: -1299473509
+      soojung_23: -1616856866
+      soojung_24: -1467883589
+      soojung_25: -708935740
+      soojung_26: 1956080593
+      soojung_27: -199586797
+      soojung_28: -1503490483
+      soojung_29: -1283160816
+      soojung_3: 1286842964
+      soojung_30: 1706245170
+      soojung_31: -404006421
+      soojung_32: -728259326
+      soojung_33: 65917617
+      soojung_34: -1182945094
+      soojung_35: 141193613
+      soojung_36: 235791916
+      soojung_37: -1171950463
+      soojung_38: -1560403530
+      soojung_39: 1955161023
+      soojung_4: 1546490889
+      soojung_40: 634155087
+      soojung_41: -1996012644
+      soojung_42: -1136381302
+      soojung_43: 2117312914
+      soojung_44: 711392387
+      soojung_45: -408922503
+      soojung_46: 1593878125
+      soojung_47: -1248468493
+      soojung_48: 647433862
+      soojung_49: 1013278912
+      soojung_5: 1776072457
+      soojung_50: -569129207
+      soojung_51: -592099865
+      soojung_52: 1940763835
+      soojung_53: 1912804691
+      soojung_54: 288042471
+      soojung_55: 412019227
+      soojung_56: -58037874
+      soojung_6: 692731608
+      soojung_7: -1100615160
+      soojung_8: -457389312
+      soojung_9: 1374002902
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

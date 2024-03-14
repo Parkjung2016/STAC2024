@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 8232728806209085733}
   - component: {fileID: 764623493269430126}
   - component: {fileID: 7003435950492272686}
-  m_Layer: 0
+  - component: {fileID: 9164472124819161144}
+  m_Layer: 8
   m_Name: Enemy_Devil
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35,6 +36,7 @@ Transform:
   - {fileID: 4770419128505357628}
   - {fileID: 4707701497627286547}
   - {fileID: 8154471165311474912}
+  - {fileID: 338466084723218245}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &8232728806209085733
@@ -121,7 +123,7 @@ MonoBehaviour:
   _knockbackDuration: 0
   stunDuration: 0
   stunDirection: {x: 0, y: 0}
-  _characterStat: {fileID: 0}
+  _characterStat: {fileID: 11400000, guid: df4742c52a3e07843822c7ea6021c6a7, type: 2}
   OnFliped:
     m_PersistentCalls:
       m_Calls: []
@@ -142,6 +144,34 @@ MonoBehaviour:
   attackDistance: 2.9
   attackCooldown: 1.5
   lastTimeAttacked: 0
+--- !u!114 &9164472124819161144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2636180508219905984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9091dfd9777423341a9737be698d4c11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 0
+  OnDeathEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  OnHitEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAilmentChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  isDead: 0
+  _ailmentStat:
+    currentAilment: 0
+  isLastHitCritical: 0
+  lastAttackDirection: {x: 0, y: 0}
+  isHitByMelee: 0
 --- !u!1 &3274585828531651485
 GameObject:
   m_ObjectHideFlags: 0
@@ -326,3 +356,69 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2727668718818354293}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &898189679635996971
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2727668718818354293}
+    m_Modifications:
+    - target: {fileID: 632047513575224942, guid: 2ed4ed8e235863e4e901079628a33b0b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 632047513575224942, guid: 2ed4ed8e235863e4e901079628a33b0b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 632047513575224942, guid: 2ed4ed8e235863e4e901079628a33b0b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 632047513575224942, guid: 2ed4ed8e235863e4e901079628a33b0b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 632047513575224942, guid: 2ed4ed8e235863e4e901079628a33b0b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 632047513575224942, guid: 2ed4ed8e235863e4e901079628a33b0b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 632047513575224942, guid: 2ed4ed8e235863e4e901079628a33b0b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 632047513575224942, guid: 2ed4ed8e235863e4e901079628a33b0b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 632047513575224942, guid: 2ed4ed8e235863e4e901079628a33b0b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 632047513575224942, guid: 2ed4ed8e235863e4e901079628a33b0b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7804234749175188447, guid: 2ed4ed8e235863e4e901079628a33b0b, type: 3}
+      propertyPath: m_Name
+      value: DamageCaster
+      objectReference: {fileID: 0}
+    - target: {fileID: 8841423403535769863, guid: 2ed4ed8e235863e4e901079628a33b0b, type: 3}
+      propertyPath: whatIsEnemy.m_Bits
+      value: 128
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2ed4ed8e235863e4e901079628a33b0b, type: 3}
+--- !u!4 &338466084723218245 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 632047513575224942, guid: 2ed4ed8e235863e4e901079628a33b0b, type: 3}
+  m_PrefabInstance: {fileID: 898189679635996971}
+  m_PrefabAsset: {fileID: 0}

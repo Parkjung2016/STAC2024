@@ -7,6 +7,8 @@ using UnityEngine.Serialization;
 
 public class Player : Entity
 {
+    [SerializeField] protected float _interactCheckDistance;
+    [SerializeField] protected LayerMask _whatIsInteract;
     [Header("Setting values")] public float moveSpeed = 12f;
     public float jumpForce = 12f;
     public float dashDuration = 0.4f;

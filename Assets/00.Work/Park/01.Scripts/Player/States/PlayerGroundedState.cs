@@ -17,6 +17,23 @@ public class PlayerGroundedState : PlayerState
         _player.PlayerInput.JumpEvent += OnHandleJump;
         _player.PlayerInput.AttackEvent += OnHandleAttack;
         _player.PlayerInput.InteractionEvent += OnHandleInteraction;
+        _player.PlayerInput.Skill1Event += OnHandleSkill1;
+        _player.PlayerInput.Skill2Event += OnHandleSkill2;
+        _player.PlayerInput.Skill3Event += OnHandleSkill3;
+    }
+
+    private void OnHandleSkill1()
+    {
+        SkillManager.Instance.PrepareSkill(PlayerSkill.EnemyAttract);
+    }
+
+    private void OnHandleSkill2()
+    {
+        SkillManager.Instance.PrepareSkill(PlayerSkill.Encroachment);
+    }
+
+    private void OnHandleSkill3()
+    {
     }
 
     private void OnHandleInteraction()
@@ -36,14 +53,15 @@ public class PlayerGroundedState : PlayerState
         {
             _stateMachine.ChangeState(StateEnum.Fall);
         }
-
-       
     }
 
     public override void Exit()
     {
         _player.PlayerInput.JumpEvent -= OnHandleJump;
         _player.PlayerInput.AttackEvent -= OnHandleAttack;
+        _player.PlayerInput.Skill1Event -= OnHandleSkill1;
+        _player.PlayerInput.Skill2Event -= OnHandleSkill2;
+        _player.PlayerInput.Skill3Event -= OnHandleSkill3;
         base.Exit();
     }
 
