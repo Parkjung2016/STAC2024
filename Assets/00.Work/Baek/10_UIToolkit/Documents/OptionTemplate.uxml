@@ -1,8 +1,14 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/00.Work/Baek/10_UIToolkit/Styels/OptionTemplate.uss?fileID=7433441132597879392&amp;guid=d68c1205bbcfa294e9be8eebe04e2993&amp;type=3#OptionTemplate" />
-    <ui:VisualElement name="screen_contain-box" class="screen_contain-box">
+    <ui:VisualElement name="screen_contain-box" class="screen_contain-box on" style="transition-duration: 0.4s;">
         <ui:VisualElement name="option_contain-box" class="option_contain-box">
-            <ui:VisualElement name="option_outline_contain-box" style="flex-grow: 1;" />
+            <ui:VisualElement name="option_outline_contain-box" class="option_outline_contain-box">
+                <ui:VisualElement name="option_button_contain-box" class="option_button_contain-box">
+                    <ui:Button text="계속하기" parse-escape-sequences="true" display-tooltip-when-elided="true" name="continue-button" class="option-button" style="transition-duration: 0.3s;" />
+                    <ui:Button text="설정" parse-escape-sequences="true" display-tooltip-when-elided="true" name="setting-button" class="option-button" style="transition-duration: 0.3s;" />
+                    <ui:Button text="나가기" parse-escape-sequences="true" display-tooltip-when-elided="true" name="exit-button" class="option-button" style="transition-duration: 0.3s;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
         </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>

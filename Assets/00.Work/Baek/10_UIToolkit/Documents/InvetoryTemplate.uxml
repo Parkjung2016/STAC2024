@@ -1,6 +1,6 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/00.Work/Baek/10_UIToolkit/Styels/InvectoryTemplate.uss?fileID=7433441132597879392&amp;guid=208718c19cf3b3648b0d5ef3d2bde568&amp;type=3#InvectoryTemplate" />
-    <ui:VisualElement name="screen_contain-box" picking-mode="Ignore" class="screen_contain-box on" style="transition-duration: 0.2s;">
+    <ui:VisualElement name="screen_contain-box" picking-mode="Ignore" class="screen_contain-box on" style="transition-duration: 0.4s; transition-timing-function: ease;">
         <ui:VisualElement name="inventory_contain_background-box" class="inventory_contain_background-box">
             <ui:VisualElement name="inventory_top_contain-box" class="inventory_top_contain-box">
                 <ui:VisualElement name="inventory_contain_outline-box" class="inventory_contain_outline-box">
@@ -8,7 +8,7 @@
                 </ui:VisualElement>
             </ui:VisualElement>
             <ui:VisualElement name="inventory_mid_contain-box" class="inventory_mid_contain-box" style="transition-duration: 0.2s;">
-                <ui:VisualElement name="profil_page_contain-box" class="profil_page_contain-box on" style="transition-duration: 0.4s;">
+                <ui:VisualElement name="profil_page_contain-box" class="profil_page_contain-box" style="transition-duration: 0.4s;">
                     <ui:VisualElement name="left_contain-box" class="left_contain-box">
                         <ui:VisualElement name="profil_background-box" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/Graphics/UI/UI_Green_Transperent.png?fileID=841295948&amp;guid=9c14819cb93297042aa1c7c096ce1d19&amp;type=3#artdecoUI_PIPO_green_5&apos;); -unity-background-image-tint-color: rgb(0, 0, 0); width: 250px; margin-left: 0; height: 250px; align-items: stretch; justify-content: space-around; -unity-slice-scale: 0; -unity-slice-bottom: -13; -unity-slice-right: 0;">
                             <ui:VisualElement name="profil_image-box" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Graphics/Icons/%232%20-%20Transparent%20Icons%20&amp;%20Drop%20Shadow.png?fileID=-1351563598&amp;guid=be55291aae08d434db3da3b59db3ab4a&amp;type=3#2 - Transparent Icons &amp; Drop Shadow_37&apos;);" />
@@ -41,7 +41,7 @@
                         </ui:VisualElement>
                     </ui:VisualElement>
                 </ui:VisualElement>
-                <ui:VisualElement name="quest_page_contain-box" class="profil_page_contain-box" style="transition-duration: 0.4s;">
+                <ui:VisualElement name="quest_page_contain-box" class="profil_page_contain-box on" style="transition-duration: 0.4s;">
                     <ui:VisualElement name="left_contain-box" class="left_contain-box">
                         <ui:VisualElement style="flex-grow: 1; width: 512px; border-left-color: rgba(0, 0, 0, 0); border-right-color: rgba(0, 0, 0, 0); border-top-color: rgba(0, 0, 0, 0); border-bottom-color: rgba(0, 0, 0, 0); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; background-image: url(&apos;project://database/Assets/Graphics/UI/artdecoUI_PIPO_green.png?fileID=507719018&amp;guid=288775d1aa25875418a3f3fd7acb01f5&amp;type=3#artdecoUI_PIPO_green_17&apos;); -unity-slice-scale: 1.7px; justify-content: center; align-items: stretch; margin-left: 0; padding-right: 15px; padding-left: 15px; -unity-background-image-tint-color: rgb(0, 0, 0); -unity-background-scale-mode: stretch-to-fill;">
                             <ui:VisualElement name="stat_contain-box" style="flex-grow: 0; flex-direction: column; justify-content: space-between; align-items: center; height: 100%;">
