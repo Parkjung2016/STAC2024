@@ -556,6 +556,7 @@ GameObject:
   - component: {fileID: 5420870384197299274}
   - component: {fileID: 599971050847162391}
   - component: {fileID: 7783345193860382529}
+  - component: {fileID: 8717370030899474858}
   m_Layer: 7
   m_Name: 'Player '
   m_TagString: Untagged
@@ -619,8 +620,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.09}
-  m_Size: {x: 1.34, y: 2.47}
+  m_Offset: {x: 0, y: 0.063691616}
+  m_Size: {x: 1.34, y: 2.1626167}
   m_Direction: 0
 --- !u!50 &5420870384197299274
 Rigidbody2D:
@@ -668,13 +669,9 @@ MonoBehaviour:
     m_Bits: 64
   _wallCheck: {fileID: 286186956345991528}
   _wallCheckDistance: 0.1
-  _interactCheckDistance: 0
-  _whatIsInteract:
-    serializedVersion: 2
-    m_Bits: 0
   _knockbackDuration: 0.07
-  stunDuration: 0
-  stunDirection: {x: 0, y: 0}
+  stunDuration: 1
+  stunDirection: {x: 5, y: 5}
   _characterStat: {fileID: 11400000, guid: 3e3308b24325d0d40b1a4a6340c9da49, type: 2}
   OnFliped:
     m_PersistentCalls:
@@ -683,6 +680,10 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   isDead: 0
+  _interactCheckDistance: 0
+  _whatIsInteract:
+    serializedVersion: 2
+    m_Bits: 0
   moveSpeed: 12
   jumpForce: 15
   dashDuration: 0.2
@@ -690,7 +691,7 @@ MonoBehaviour:
   attackMovement:
   - {x: 3, y: 1.5}
   - {x: 1, y: 2.5}
-  - {x: 4, y: 1.5}
+  - {x: 6, y: 1.5}
   attackSpeed: 1
   skill: {fileID: 0}
   _inputReader: {fileID: 11400000, guid: 60fa891a105d6e34897b2af6ca489b29, type: 2}
@@ -783,6 +784,19 @@ MonoBehaviour:
   isLastHitCritical: 0
   lastAttackDirection: {x: 0, y: 0}
   isHitByMelee: 0
+--- !u!114 &8717370030899474858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7660857406298621136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7509c21ea29705043a8b8ac22de7d3ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handPF: {fileID: 4948837459754413751, guid: 3db8bf05a2f98e34092b484e32244e78, type: 3}
 --- !u!1 &8859105381927989382
 GameObject:
   m_ObjectHideFlags: 0
@@ -809,7 +823,7 @@ Transform:
   m_GameObject: {fileID: 8859105381927989382}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
