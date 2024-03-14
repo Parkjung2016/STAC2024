@@ -20,6 +20,13 @@ public class PlayerGroundedState : PlayerState
         _player.PlayerInput.Skill1Event += OnHandleSkill1;
         _player.PlayerInput.Skill2Event += OnHandleSkill2;
         _player.PlayerInput.Skill3Event += OnHandleSkill3;
+        _player.PlayerInput.FireSkillEvent += OnFireEvent;
+    }
+
+    private void OnFireEvent()
+    {
+        if (SkillManager.Instance.PreParedSkill == null) return;
+        SkillManager.Instance.PreParedSkill.AttemptUseSkill();
     }
 
     private void OnHandleSkill1()
@@ -62,6 +69,8 @@ public class PlayerGroundedState : PlayerState
         _player.PlayerInput.Skill1Event -= OnHandleSkill1;
         _player.PlayerInput.Skill2Event -= OnHandleSkill2;
         _player.PlayerInput.Skill3Event -= OnHandleSkill3;
+        _player.PlayerInput.FireSkillEvent -= OnFireEvent;
+
         base.Exit();
     }
 

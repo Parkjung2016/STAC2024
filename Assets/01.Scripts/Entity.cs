@@ -29,6 +29,8 @@ public abstract class Entity : MonoBehaviour
     public DamageCaster DamageCasterCompo { get; private set; }
     public SpriteRenderer SpriteRendererCompo { get; private set; }
     public CapsuleCollider2D Collider { get; private set; }
+    
+    public Transform Visual { get; private set; }
 
     [SerializeField]protected CharacterStat _characterStat;
     public CharacterStat Stat => _characterStat; 
@@ -40,15 +42,16 @@ public abstract class Entity : MonoBehaviour
     public UnityEvent<float> OnHealthBarChanged;
 
     [HideInInspector] public bool isDead;
+    
 
     protected virtual void Awake()
     {
-        Transform visualTrm = transform.Find("Visual");
-        AnimatorCompo = visualTrm.GetComponent<Animator>();
+        Visual = transform.Find("Visual");
+        AnimatorCompo = Visual.GetComponent<Animator>();
         RigidbodyCompo = GetComponent<Rigidbody2D>();
         HealthCompo = GetComponent<Health>();
         DamageCasterCompo = transform.Find("DamageCaster").GetComponent<DamageCaster>();
-        SpriteRendererCompo = visualTrm.GetComponent<SpriteRenderer>();
+        SpriteRendererCompo = Visual.GetComponent<SpriteRenderer>();
         Collider = GetComponent<CapsuleCollider2D>();
         
         DamageCasterCompo.SetOwner(this, castByCloneSkill:false); //자신의 스탯상 데미지를 넣어줌.

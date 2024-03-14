@@ -14,8 +14,9 @@ public class SkillManager : MonoSingleton<SkillManager>
 {
     private Dictionary<Type, Skill> _skills;
     private Dictionary<PlayerSkill, Type> _skillTypeDictionary;
-
     public Skill PreParedSkill { get; set; }
+    private float _currentResetFusionTime;
+    [SerializeField] private float _resetFusionTime;
 
     private void Awake()
     {
@@ -40,6 +41,20 @@ public class SkillManager : MonoSingleton<SkillManager>
         }
 
         return null;
+    }
+
+    private void Update()
+    {
+        if (PreParedSkill)
+        {
+            if (_currentResetFusionTime >= _resetFusionTime)
+            {
+                _currentResetFusionTime = 0;
+                PreParedSkill = null;
+            }
+            else _currentResetFusionTime += Time.deltaTime;
+        }
+        
     }
 
     //Enum타입으로 그냥 스킬 가져오는 방법.

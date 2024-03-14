@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 859409904213232478}
   - component: {fileID: 324824417138311935}
   - component: {fileID: -2027352460058263529}
-  - component: {fileID: 5682014388739755741}
   m_Layer: 0
   m_Name: FireBlot
   m_TagString: Untagged
@@ -120,41 +119,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 657ee7fcec859a949afb82d555e80665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  poolingType: 0
   _projectileSpeed: 10
   _intersection: 30
+  _damage: 5
   _explosionPF: {fileID: 3057048106551902425, guid: 41261f92081250d47bc7e85638cb295e, type: 3}
---- !u!70 &5682014388739755741
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8544698733554211854}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
+  _castRadius: 1.22
+  _whatIsEnemy:
     serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.44, y: 0.16}
-  m_Direction: 1
+    m_Bits: 256

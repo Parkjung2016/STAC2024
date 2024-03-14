@@ -10,7 +10,9 @@ public enum PoolingType
     SlashVFX,
     HitImpactVFX,
     AfterImage,
-    DamageText
+    DamageText,
+    Encroachment,
+    EnemyAttract
 }
 
 [Serializable]

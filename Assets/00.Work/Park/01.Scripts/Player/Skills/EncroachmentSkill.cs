@@ -1,7 +1,10 @@
 ﻿using System;
+using UnityEngine;
 
 public class EncroachmentSkill : Skill
 {
+    [SerializeField] private GameObject _skillPrefab;
+
     private void OnValidate()
     {
         _skillType = PlayerSkill.Encroachment;
@@ -14,9 +17,17 @@ public class EncroachmentSkill : Skill
         {
             case PlayerSkill.EnemyAttract:
                 fusedSkill = PlayerSkill.EnemyAttract;
+                (SkillManager.Instance.GetSkill(PlayerSkill.EnemyAttract) as EnemyAttractSkill).Explosion = true;
                 break;
         }
 
         return fusedSkill;
+    }
+
+    public override void UseSkill()
+    {
+        base.UseSkill();
+        Transform trm = PoolManager.Instance.Pop(PoolingType.Encroachment).transform;
+        trm.position = _player.transform.position;
     }
 }

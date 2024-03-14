@@ -122,15 +122,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e19dedeca7cd76d4687885ddcdfc92c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  poolingType: 8
   arrivalTime: 0.5
   comeSpeed: 10
+  explosionDamage: 8
   maxRange: 15
-  handskill: 1
   range: 14
   whatIsEnemy:
     serializedVersion: 2
     m_Bits: 256
-  explosion: {fileID: 3057048106551902425, guid: 41261f92081250d47bc7e85638cb295e, type: 3}
+  _explosion: {fileID: 3057048106551902425, guid: 41261f92081250d47bc7e85638cb295e, type: 3}
 --- !u!58 &7845142934353557579
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -219,7 +220,7 @@ TrailRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a82003f86eaacfb4dbd23f58d3f3e95b, type: 2}
+  - {fileID: 2100000, guid: 9cf4cce109df58f4faed1fba8b1e0970, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

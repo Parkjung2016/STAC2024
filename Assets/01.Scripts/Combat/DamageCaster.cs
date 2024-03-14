@@ -6,13 +6,15 @@ public class DamageCaster : MonoBehaviour
     public float attackCheckRadius;
 
     public Vector2 knockbackPower;
-    
+
     [SerializeField] private int _maxHitCount = 5; //최대로 때릴 수 있는 적 갯수
     public LayerMask whatIsEnemy;
     private Collider2D[] _hitResult;
 
     private Entity _owner;
     private bool _castByCloneSkill;
+    public bool CanKnockBack { get; set; } = true;
+
     private void Awake()
     {
         _hitResult = new Collider2D[_maxHitCount];
@@ -30,7 +32,7 @@ public class DamageCaster : MonoBehaviour
 
         //이거 쓰면 라이더가 경고 때리는데 위에껀 유니티에서 쓰지말라함..아잇...
         //Physics2D.OverlapCircleAll(attackChecker.position, attackCheckRadius, whatIsEnemy);
-        
+
         for (int i = 0; i < cnt; ++i)
         {
             Vector2 direction = (_hitResult[i].transform.position - transform.position).normalized;
@@ -39,9 +41,10 @@ public class DamageCaster : MonoBehaviour
                 int damage = _owner.Stat.GetDamage();
                 if (_castByCloneSkill)
                 {
-                    damage =  Mathf.RoundToInt(damage);
+                    damage = Mathf.RoundToInt(damage);
                 }
-                health.ApplyDamage(damage, direction, knockbackPower, _owner);
+
+                health.ApplyDamage(damage, direction, !CanKnockBack ? Vector3.zero : knockbackPower, _owner);
                 SetAilmentByStat(health);
             }
         }
@@ -53,7 +56,7 @@ public class DamageCaster : MonoBehaviour
     {
         CharacterStat stat = _owner.Stat; //주인의 스탯참조
         float duration = stat.ailmentTimeMS.GetValue() * 0.001f;
-        
+
         if (stat.canIgniteByMelee && stat.CanAilment(Ailment.Ignited)) //점화 가능
         {
             int damage = stat.GetDotDamage(Ailment.Ignited);
@@ -65,17 +68,17 @@ public class DamageCaster : MonoBehaviour
             int damage = stat.GetDotDamage(Ailment.Chilled);
             targetHealth.SetAilment(Ailment.Chilled, duration, damage);
         }
-        
+
         if (stat.canShockByMelee && stat.CanAilment(Ailment.Shocked))
         {
             int damage = stat.GetDotDamage(Ailment.Shocked);
             targetHealth.SetAilment(Ailment.Shocked, duration, damage);
         }
     }
-    
+
     private void OnDrawGizmos()
     {
-        if(attackChecker != null)
+        if (attackChecker != null)
             Gizmos.DrawWireSphere(attackChecker.position, attackCheckRadius);
     }
 }

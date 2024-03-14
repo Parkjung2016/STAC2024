@@ -6,27 +6,80 @@
   <component name="ChangeListManager">
     <list default="true" id="3ff5c593-e2bb-4905-8b1d-75d16f9cbe78" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.STAC2024/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.STAC2024/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/Player/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/Player/Skills/Skill.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/Player/Skills/Skill.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/00.Work/Kim/02.Script/PlayerCatchSkill.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00.Work/Kim/02.Script/PlayerCatchSkill.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/00.Work/Kim/03.PF/Hand_Skill.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00.Work/Kim/03.PF/Hand_Skill.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/00.Work/Kim/05.Animation/Hand.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00.Work/Kim/05.Animation/Hand.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/Player/Skills/EncroachmentSkill.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/Player/Skills/EncroachmentSkill.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/Player/Skills/EnemyAttractSkill.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/Player/Skills/EnemyAttractSkill.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/Player/Skills/SkillManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/Player/Skills/SkillManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/Player/States/PlayerGroundedState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00.Work/Park/01.Scripts/Player/States/PlayerGroundedState.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/00.Work/Park/02.Scene/Test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00.Work/Park/02.Scene/Test.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/00.Work/You/02_Animator/Devil_Attack.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00.Work/You/02_Animator/Devil_Attack.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/00.Work/You/02_Animator/Devil_Breathe.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00.Work/You/02_Animator/Devil_Breathe.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/00.Work/You/03.Prefabs/Enemy_Devil.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00.Work/You/03.Prefabs/Enemy_Devil.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Scripts/Combat/DamageCaster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scripts/Combat/DamageCaster.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Scripts/Core/PoolingListSO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scripts/Core/PoolingListSO.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/01.Scripts/Entity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scripts/Entity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scripts/Stats/PlayerStat.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scripts/Stats/PlayerStat.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/08.SO/CharacterStat/SkelectonStat.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/08.SO/CharacterStat/SkelectonStat.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/99.Work/Lee/Asset/VFX Free Pack/Effect_BigHit/Effect_BigHit_1_516x528.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/99.Work/Lee/Asset/VFX Free Pack/Effect_BigHit/Effect_BigHit_1_516x528.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/99.Work/Lee/Asset/VFX Free Pack/Effect_Charged/Effect_Charged_1_357x295.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/99.Work/Lee/Asset/VFX Free Pack/Effect_Charged/Effect_Charged_1_357x295.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/99.Work/Lee/Asset/VFX Free Pack/Effect_Explosion/Effect_Explosion_1_517x517.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/99.Work/Lee/Asset/VFX Free Pack/Effect_Explosion/Effect_Explosion_1_517x517.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/99.Work/Lee/Asset/VFX Free Pack/Effect_FastPixelFire/Effect_FastPixelFire_1_173x197.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/99.Work/Lee/Asset/VFX Free Pack/Effect_FastPixelFire/Effect_FastPixelFire_1_173x197.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/InputSettings/Controls.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/InputSettings/Controls.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/InputSettings/Controls.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/InputSettings/Controls.inputactions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/InputSettings/InputReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/InputSettings/InputReader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02Animations/Clips/player_attack_1.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02Animations/Clips/player_attack_1.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02Animations/Clips/player_attack_2.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02Animations/Clips/player_attack_2.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02Animations/Clips/player_attack_3.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02Animations/Clips/player_attack_3.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/05.MatAndShader/Shaders/CrystalMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/05.MatAndShader/Shaders/CrystalMat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/CharacterStat/DevilStat.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/08.SO/CharacterStat/DevilStat.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/DropTable.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/DropTable/SkelectonDropTable.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/DropTable/SkelectonDropTable.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/Equipment.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/Equipment/Amulet.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/Equipment/Amulet/AmuletOfThunder.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/Equipment/Amulet/AmuletOfThunder.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/Equipment/Amulet/IronAmulet.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/Equipment/Amulet/IronAmulet.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/Equipment/Armor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/Equipment/Armor/ChainMail.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/Equipment/Armor/ChainMail.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/Equipment/Armor/LeatherArmor.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/Equipment/Armor/LeatherArmor.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/Equipment/Armor/PlateArmor.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/Equipment/Armor/PlateArmor.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/Equipment/Flask.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/Equipment/Flask/BuiffFlask.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/Equipment/Flask/BuiffFlask.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/Equipment/Flask/HealingFlask.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/Equipment/Flask/HealingFlask.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/Equipment/Weapon.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/Equipment/Weapon/IceFireSword.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/Equipment/Weapon/IceFireSword.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/Equipment/Weapon/SteelSword.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/Equipment/Weapon/SteelSword.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/Equipment/Weapon/ThunderSword.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/Equipment/Weapon/ThunderSword.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/Equipment/Weapon/VampireSword.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/Equipment/Weapon/VampireSword.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/Equipment/Weapon/WoodenSword.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/Equipment/Weapon/WoodenSword.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/ItemEffects.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/ItemEffects/DamageBuff.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/ItemEffects/DamageBuff.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/ItemEffects/FlaskHeal.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/ItemEffects/FlaskHeal.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/ItemEffects/FreezeNearEnemy.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/ItemEffects/FreezeNearEnemy.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/ItemEffects/HealByMelee.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/ItemEffects/HealByMelee.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/ItemEffects/IceAndFire.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/ItemEffects/IceAndFire.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/ItemEffects/ThunderStrikeByMelee.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/ItemEffects/ThunderStrikeByMelee.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/ItemEffects/ThunderStrikeBySkillDashAndSword.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/ItemEffects/ThunderStrikeBySkillDashAndSword.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/ItemMaterials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/ItemMaterials/AnimalSkin.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/ItemMaterials/AnimalSkin.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/ItemMaterials/Iron.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/ItemData/ItemMaterials/Iron.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/KeySkillSprite.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/KeySkillSprite.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/08.SO/PoolingList.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/08.SO/PoolingList.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/99.Work/Lee/Prefab/Effect/FireBlot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/99.Work/Lee/Prefab/Effect/FireBlot.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/99.Work/Lee/Script/Projectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/99.Work/Lee/Script/Projectile.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,27 +107,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "PJH",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\bagj2\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\bagj2\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\bagj2\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\bagj2\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\bagj2\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\bagj2\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Unity 에디터에 연결.Unity 에디터에 연결">
     <configuration name="유닛 테스트(배치 모드)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.19f1\Editor\Unity.exe" />
