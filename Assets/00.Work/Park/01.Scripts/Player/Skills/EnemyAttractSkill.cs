@@ -19,6 +19,9 @@ public class EnemyAttractSkill : Skill
                 fusedSkill = PlayerSkill.EnemyAttract;
                 Explosion = true;
                 break;
+            default:
+                fusedSkill = PlayerSkill.EnemyAttract;
+                break;
         }
 
         return fusedSkill;
@@ -27,7 +30,9 @@ public class EnemyAttractSkill : Skill
     public override void UseSkill()
     {
         base.UseSkill();
-        Transform trm = PoolManager.Instance.Pop(PoolingType.EnemyAttract).transform;
-        trm.position = _player.transform.position;
+        PlayerCatchSkill skill = PoolManager.Instance.Pop(PoolingType.EnemyAttract) as PlayerCatchSkill;
+        skill.transform.position = _player.transform.position;
+        skill.transform.rotation = _player.transform.rotation;
+        skill.Init();
     }
 }

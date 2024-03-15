@@ -19,6 +19,9 @@ public class EncroachmentSkill : Skill
                 fusedSkill = PlayerSkill.EnemyAttract;
                 (SkillManager.Instance.GetSkill(PlayerSkill.EnemyAttract) as EnemyAttractSkill).Explosion = true;
                 break;
+            default:
+                fusedSkill = PlayerSkill.Encroachment;
+                break;
         }
 
         return fusedSkill;
@@ -27,7 +30,8 @@ public class EncroachmentSkill : Skill
     public override void UseSkill()
     {
         base.UseSkill();
-        Transform trm = PoolManager.Instance.Pop(PoolingType.Encroachment).transform;
-        trm.position = _player.transform.position;
+        Projectile skill = PoolManager.Instance.Pop(PoolingType.Encroachment) as Projectile;
+        skill.Init();
+        skill.transform.position = _player.transform.position;
     }
 }

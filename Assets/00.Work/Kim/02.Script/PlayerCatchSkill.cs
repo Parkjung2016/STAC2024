@@ -20,7 +20,6 @@ public class PlayerCatchSkill : PoolableMono
     Enemy enemy;
     Player player;
 
-    private float startXPos;
     private bool isHitEnemy = true;
 
     private void Awake()
@@ -31,10 +30,6 @@ public class PlayerCatchSkill : PoolableMono
         player = GameManager.Instance.Player;
     }
 
-    private void Start()
-    {
-        startXPos = transform.position.x;
-    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -43,14 +38,6 @@ public class PlayerCatchSkill : PoolableMono
 
     private void Update()
     {
-        float currentDis = transform.position.x - startXPos;
-
-        if (currentDis > range)
-        {
-            sp.DOFade(0, 0.5f);
-            trailRenderer.material.DOFade(0, 0.5f).OnComplete(() => Destroy(gameObject));
-        }
-
         if (enemy != null)
             enemy.StopImmediately(false);
     }
@@ -90,7 +77,8 @@ public class PlayerCatchSkill : PoolableMono
             {
                 enemy.GetComponent<Rigidbody2D>().gravityScale = 4;
                 await Task.Delay(1000);
-                enemy.transform.parent = null;
+                if (enemy != null)
+                    enemy.transform.parent = null;
                 sp.DOFade(0, 0.5f).OnComplete(() =>
                 {
                     player.DamageCasterCompo.CanKnockBack = true;
@@ -103,8 +91,19 @@ public class PlayerCatchSkill : PoolableMono
     public override void ResetPooingItem()
     {
         sp.DOFade(1, 0);
+        trailRenderer.emitting = true;
         player.DamageCasterCompo.CanKnockBack = false;
+       
+    }
+
+    public void Init()
+    {
         transform.DOMoveX(transform.position.x + maxRange * Mathf.Sign(player.Visual.rotation.y), arrivalTime)
-            .SetEase(Ease.Linear);
+            .SetEase(Ease.Linear).OnComplete(() =>
+            {
+                sp.DOFade(0, 0.5f).OnComplete(() => PoolManager.Instance.Push(this));
+
+                trailRenderer.emitting = false;
+            });
     }
 }

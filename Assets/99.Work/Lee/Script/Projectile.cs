@@ -12,7 +12,6 @@ public class Projectile : PoolableMono
     [SerializeField] private float _castRadius;
     [SerializeField] private LayerMask _whatIsEnemy;
     private Player _player;
-    private Camera _mainCam;
     private float _projectileDir;
     private Vector3 originPos;
 
@@ -20,20 +19,14 @@ public class Projectile : PoolableMono
 
     private void Awake()
     {
-        _mainCam = Camera.main;
-        originPos = transform.position;
         _player = GameManager.Instance.Player;
-    }
-
-    private void Start()
-    {
     }
 
     private void Update()
     {
         if (CastDamage())
         {
-            Instantiate(_explosionPF, _hitResult[0].transform.Find("Visual").position, Quaternion.identity);
+            Instantiate(_explosionPF, _hitResult[0].transform.position + Vector3.up * 1, Quaternion.identity);
             PoolManager.Instance.Push(this);
         }
 
@@ -66,24 +59,15 @@ public class Projectile : PoolableMono
 
     public override void ResetPooingItem()
     {
-        Vector3 mousePos = _mainCam.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y,
-            -_mainCam.transform.position.z));
-
-        Vector3 dir = (_player.transform.position - mousePos).normalized;
-        Vector3 Cross = Vector3.Cross(_player.transform.forward, dir);
-
-        if (Vector3.Dot(_player.transform.up,
-                Cross) > 0)
-        {
-            _projectileDir = -1;
-        }
-        else
-        {
-            _projectileDir = 1;
-        }
+        _projectileDir = Mathf.Sign(_player.transform.rotation.y);
 
         Vector3 scale = transform.localScale;
         transform.localScale = new Vector3(scale.x * _projectileDir * -1, scale.y, scale.z);
+    }
+
+    public void Init()
+    {
+        originPos = transform.position;
     }
 #if UNITY_EDITOR
     private void OnDrawGizmos()

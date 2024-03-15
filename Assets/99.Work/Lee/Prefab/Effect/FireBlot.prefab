@@ -119,8 +119,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 657ee7fcec859a949afb82d555e80665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  poolingType: 0
-  _projectileSpeed: 10
+  poolingType: 7
+  _projectileSpeed: 20
   _intersection: 30
   _damage: 5
   _explosionPF: {fileID: 3057048106551902425, guid: 41261f92081250d47bc7e85638cb295e, type: 3}
