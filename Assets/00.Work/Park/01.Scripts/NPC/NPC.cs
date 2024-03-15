@@ -15,9 +15,10 @@ public class NPC : MonoBehaviour, IInteract
         _conversation = GetComponent<NPCConversation>();
     }
 
-    public void Interact()
+    public virtual void Interact()
     {
         if (!_data.CanDialog) return;
+
         ConversationManager.Instance.StartConversation(_conversation);
     }
 
