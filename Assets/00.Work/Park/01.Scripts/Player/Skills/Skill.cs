@@ -14,6 +14,7 @@ public class Skill : MonoBehaviour
     [HideInInspector] public LayerMask whatIsEnemy;
 
     public event Action<float, float> OnCoolDown;
+    public event Action<Skill> OnUseSkill;
 
     protected virtual void Start()
     {
@@ -51,6 +52,7 @@ public class Skill : MonoBehaviour
 
     public virtual void UseSkill()
     {
+        OnUseSkill?.Invoke(this);
         //스킬을 쓸 때마다 해당 스킬을 썼음을 알려주는 피드백 필요.
         SkillManager.Instance.UseSkillFeedback(_skillType);
     }

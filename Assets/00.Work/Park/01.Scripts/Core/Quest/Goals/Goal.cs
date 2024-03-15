@@ -3,9 +3,7 @@
 [Serializable]
 public class Goal
 {
-    public string GoalName;
     public string Description;
-    public bool Completed;
     public Quest Owner;
 
     public virtual void Init(Quest owner)
@@ -18,9 +16,4 @@ public class Goal
         
     }
     
-
-    public void Complete()
-    {
-        Completed = true;
-    }
 }

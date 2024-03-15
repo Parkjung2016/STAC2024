@@ -1,3 +1,4 @@
+using System;
 using DG.Tweening;
 using DialogueEditor;
 using UnityEngine;
@@ -40,9 +41,18 @@ public class GameManager : MonoSingleton<GameManager>
         DOTween.Init(recycleAllByDefault: true, useSafeMode: true, LogBehaviour.Verbose).SetCapacity(400, 100);
     }
 
+    private void Start()
+    {
+        NewGame();
+    }
 
     public void RestartGame()
     {
         SceneManager.LoadScene(SceneList.GameScene.ToString());
+    }
+
+    public void NewGame()
+    {
+        QuestManager.Instance.AddQuest("튜토리얼 진행");
     }
 }

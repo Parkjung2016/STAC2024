@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,13 +12,16 @@ public struct QuestValue
     public string goal;
 }
 
-public class InventoryUI : MonoBehaviour
+public class InventoryUI : MonoSingleton<InventoryUI>
 {
     private UIDocument _doc;
     [SerializeField] private VisualTreeAsset _questTemplate;
-    private Dictionary<QuestValue, string> _questDictionary = new Dictionary<QuestValue, string>();
-
+    [SerializeField] private InputReader _inputReader;
+    private Dictionary<string, Button> _questDictionary = new();
     private Label _questTitleLabel, _questInfoLabel, _questGoalLabel;
+
+
+    private bool _opened;
 
     private void Awake()
     {
@@ -34,8 +38,28 @@ public class InventoryUI : MonoBehaviour
         VisualElement profilePage = root.Q<VisualElement>("profil_page_contain-box");
         VisualElement inventoryPage = root.Q<VisualElement>("quest_page_contain-box");
 
-        ToolKitUtile.SetClikeEvent(profileBtn, () => { profilePage.RemoveFromClassList("on"); inventoryPage.AddToClassList("on"); Debug.Log("dd"); });
-        ToolKitUtile.SetClikeEvent(inventoryBtn, () => { inventoryPage.RemoveFromClassList("on"); profilePage.AddToClassList("on"); });
+        ToolKitUtile.SetClikeEvent(profileBtn, () =>
+        {
+            profilePage.RemoveFromClassList("on");
+            inventoryPage.AddToClassList("on");
+            Debug.Log("dd");
+        });
+        ToolKitUtile.SetClikeEvent(inventoryBtn, () =>
+        {
+            inventoryPage.RemoveFromClassList("on");
+            profilePage.AddToClassList("on");
+        });
+    }
+
+    private void OnEnable()
+    {
+        _inputReader.OpenMenuEvent += HandleOpenMenuEvent;
+    }
+
+    private void HandleOpenMenuEvent()
+    {
+        _opened = !_opened;
+        OnUI(_opened);
     }
 
     public void OnUI(bool OnGUI)
@@ -49,14 +73,6 @@ public class InventoryUI : MonoBehaviour
     }
 
 
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            AddQuest("타이틀이지요", "박정호를 못따먹음 님 죽음", "박정호를 성공적으로 절정만들기");
-        }
-    }
-
     private void questInit()
     {
         var root = _doc.rootVisualElement;
@@ -64,10 +80,9 @@ public class InventoryUI : MonoBehaviour
         _questTitleLabel = questRoot.Q<Label>("stat_hp-label");
         _questInfoLabel = questRoot.Q<Label>("quest_info-label");
         _questGoalLabel = questRoot.Q<Label>("quest_goals-label");
-
-
     }
-    private void AddQuest(string questName, string questInfo, string questGoal)
+
+    public void AddQuest(string questName, string questInfo, string questGoal)
     {
         QuestValue quest;
         quest.name = questName;
@@ -87,10 +102,16 @@ public class InventoryUI : MonoBehaviour
         });
 
         questScroll.Add(questInfoTemplate);
+        _questDictionary.Add(questName, questInfoTemplate);
+    }
+
+    public void RemoveQuest(string questName)
+    {
+        print(_questDictionary[questName]);
+        if (!_questDictionary.ContainsKey(questName)) return;
+        var root = _doc.rootVisualElement;
+
+        var questScroll = root.Q<ScrollView>("quest-scroll");
+        questScroll.Remove(_questDictionary[questName]);
     }
 }
-
-
-
-
-

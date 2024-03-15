@@ -11,7 +11,6 @@ public class BaekTestSc : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Tab))
         {
-            qwer.OnUI(a);
             a = !a;
         }
     }
